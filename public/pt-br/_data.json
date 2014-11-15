@@ -1,0 +1,18 @@
+{
+    "index": {
+        "site_css":  "../css/",
+        "site_img":  "../img/",
+        "site_subtitle":  "Plataforma Open Source de vagas para usuários Bitcoin",
+        "site_nav" : {
+            "started": "Começar",
+            "about": "Sobre",
+            "team": "Time",
+            "contact": "Contato"
+        },
+        "btn_started": "Começar",
+        "slogan": {
+            "strong": "Plataforma Open Source",
+            "title": " de vagas para usuários Bitcoin"
+        }
+    }
+}

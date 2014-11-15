@@ -1,0 +1,18 @@
+{
+    "index" : {
+        "site_css":  "css/",
+        "site_img":  "img/",
+        "site_subtitle":  "Open Source platform vacancies for Bitcoin users",
+        "site_nav" : {
+            "started": "Get started",
+            "about": "About",
+            "team": "Team",
+            "contact": "Contact"
+        },
+        "btn_started": "Get started",
+        "slogan": {
+            "strong": "Open Source platform",
+            "title": " vacancies for Bitcoin Users"
+        }
+    }
+}

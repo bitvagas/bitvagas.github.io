@@ -1,0 +1,98 @@
+!!! 5
+html(lang='en')
+head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700', rel='stylesheet', type='text/css')
+    link(rel='stylesheet' href='#{ site_css }main.css')
+    title #{ site_title } - #{ site_subtitle }
+  body
+    //
+       .head
+    header.head
+      .wrapper
+        .logo
+          img.logo__img(src='#{ site_img }bitvagas.png', alt='')
+
+        ul.head-nav
+          li
+            a(href='') #{ site_nav.about }
+          li
+            a(href='') #{ site_nav.started }
+          li
+            a(href='') Follow
+          li
+            a(href='') #{ site_nav.team }
+          li
+            a(href='') #{ site_nav.contact }
+    //
+       /.head
+
+    //
+       .main
+    .main
+      //
+         .wrapper
+      .wrapper
+        //
+           .banner
+        .banner
+          //
+             .banner__cell
+          .banner__cell.banner__cell--body
+            h1.banner__title
+              strong #{ slogan.strong }
+              |  #{ slogan.title }
+            p.banner__p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            a.btn.btn--primary(href='') #{ btn_started }
+          //
+             /.banner__cell
+          //
+             .banner__cell
+          .banner__cell.banner__cell--img
+            img.banner__img(src='#{ site_img }img-1.png', alt='')
+
+        .about
+          .about__head
+            h1.about__title About us
+
+          .about__body
+
+        .started
+          .started__head
+            h1.started__title Get started
+
+          .started__body
+            .started-item
+              h3.started-item__title Open Source
+
+            .started-item
+              h3.started-item__title Follow us
+
+            .started-item
+              h3.started-item__title Donate us
+
+        .follow
+          .follow__head
+            h1.follow__title Follow us
+
+          .follow__body
+
+        .team
+          .team__head
+            h1.team__title Team
+
+          .team__body
+
+        .donate
+          .donate__head
+            h1.donate__title Donate
+
+          .donate__body
+
+        .contact
+          .contact__head
+            h1.contact__title Contact
+
+          .contact__body
