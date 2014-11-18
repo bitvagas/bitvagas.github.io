@@ -18,6 +18,7 @@ fi
 git checkout $DEST_BRANCH
 cp www/* .
 rm -r www/
+git rm -r www/
 git add .
 git commit -m "Deploying to $DEST_BRANCH"
 git push origin $DEST_BRANCH
