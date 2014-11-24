@@ -1,6 +1,7 @@
 .banner
-  overflow: hidden
-  margin-bottom: 48px
+  +cf
+
+  padding: 48px 0
   margin-left: -24px
 
 .banner__cell
@@ -12,11 +13,17 @@
   margin-bottom: 24px
   width: 100%
 
+  .btn
+    display: none
+
   +media-query(desk)
     text-align: left
     margin-bottom: 0
     padding-top: 48px
     width: 60%
+
+    .btn
+      display: inline-block
 
 .banner__cell--img
   text-align: center
@@ -24,6 +31,9 @@
 
   +media-query(desk)
     width: 40%
+
+    .btn
+      display: none
 
 .banner__title
   font-size: 36px

@@ -1,8 +1,19 @@
+.started
+  padding: 48px 0
+
+.started__title
+  text-align: center
+
 .started__body
-  overflow: hidden
+  +cf
+
   margin-left: -48px
 
 .started-item
   float: left
   padding-left: 48px
-  width: 33.333%
+  text-align: center
+  width: 100%
+
+  +media-query(desk)
+    width: 33.333%
