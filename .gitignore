@@ -1,3 +1,4 @@
 *.swp
+*.swn
 node_modules/
 www/
