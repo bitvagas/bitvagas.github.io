@@ -1,7 +1,5 @@
 .started
   padding: 48px 0
-
-.started__title
   text-align: center
 
 .started__body
@@ -10,10 +8,20 @@
   margin-left: -48px
 
 .started-item
-  float: left
+  display: inline-block
   padding-left: 48px
-  text-align: center
+  margin-right: -0.28em
+  margin-bottom: 36px
+  vertical-align: top
   width: 100%
 
+  &:last-child
+    margin-bottom: 0
+
+  +media-query(lap)
+    width: 50%
+
   +media-query(desk)
+    margin-bottom: 0
     width: 33.333%
+
