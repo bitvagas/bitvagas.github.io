@@ -3,6 +3,7 @@ var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
 var harp        = require('harp');
 var deploy      = require('gulp-gh-pages');
+var cp          = require('child_process');
 
 /**
  * Serve the Harp Site from the src directory
@@ -33,16 +34,15 @@ gulp.task('serve', function () {
 /**
  * Build the Harp Site
  */
-//gulp.task('build', function (done) {
-//  cp.exec('harp compile . dist', {stdio: 'inherit'})
-//    .on('close', done)
-//});
+gulp.task('build', function (done) {
+  cp.exec('harp compile . www', {stdio: 'inherit'})
+    .on('close', done)
+});
 
 /**
  * Push build to gh-pages
  */
-//gulp.task('deploy', ['build'], function () {
-gulp.task('deploy', function () {
+gulp.task('deploy', ['build'], function () {
   return gulp.src("./www/**/*")
     .pipe(deploy({branch: 'master'}))
 });
