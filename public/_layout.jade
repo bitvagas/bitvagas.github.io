@@ -22,7 +22,7 @@ head
           li
             a(href='') #{ site_nav.team }
           li
-            a(href='') Doar
+            a(href='') Apoiar
           li
             a(href='') #{ site_nav.contact }
     //
@@ -82,46 +82,77 @@ head
 
             .started-item
               img.started-item__img(src="#{ site_img }donate.png")
-              h3.started-item__title Doe-nos
+              h3.started-item__title Apoie o Projeto
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              a.btn.btn--primary(href="") Doar
+              a.btn.btn--primary(href="") Apoiar
 
         .team
           .team__head
-            h2.team__title Time
+            h2.team__title O Time
 
           .team__body
             .team-item
-              img.team-item__img(src="#{ site_img }anderson-juhasc.png")
+              a.team-item__img(href='')
+                img(src="#{ site_img }anderson-juhasc.png")
               h3.team-item__title Anderson Juhasc
+              h4.team-item__subtitle Front-End/UI Developer
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
             .team-item
-              img.team-item__img(src="#{ site_img }cesar-azevedo.png")
+              a.team-item__img(href='')
+                img(src="#{ site_img }cesar-azevedo.png")
               h3.team-item__title Cesar Azevedo
+              h4.team-item__subtitle Web Developer
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
             .team-item
-              img.team-item__img(src="#{ site_img }randson-oliveira.png")
+              a.team-item__img(href='')
+                img(src="#{ site_img }randson-oliveira.png")
               h3.team-item__title Randson Oliveira
+              h4.team-item__subtitle Front-End Developer
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
             .team-item
-              img.team-item__img(src="#{ site_img }rodrigo-souza.png")
+              a.team-item__img(href='')
+                img(src="#{ site_img }rodrigo-souza.png")
               h3.team-item__title Rodrigo Souza
+              h4.team-item__subtitle Assessor
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
         .donate
           .donate__head
-            h2.donate__title Doar para BitVagas
-
+            h2.donate__title Apoiar BitVagas
           .donate__body
+            p.donate__address BTC: 1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3</a>
+            a.donate__qrcode(href='bitcoin:1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3')
+              <img src="https://blockchain.info/pt/qr?data=1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3&size=200" alt="" />
 
         .contact
           .contact__head
-            h2.contact__title Contato
+            h2.contact__title Entrar em Contato
 
           .contact__body
+            a(href='') Contato
 
     footer.foot
+      .wrapper
+        .foot-top
+          ul.foot-nav
+            li
+              a(href='') Sobre
+            li
+              a(href='') Começar
+            li
+              a(href='') Time
+            li
+              a(href='') Apoiar
+            li
+              a(href='') Github
+            li
+              a(href='') Tip4Commit
+            li
+              a(href='') Contato
+        .foot-bot
+          a.foot-logo(href='')
+            img.foot-logo__img(src='#{ site_img }bitvagas.png', alt='')
