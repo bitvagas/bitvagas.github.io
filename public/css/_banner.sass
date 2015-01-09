@@ -10,7 +10,6 @@
 
 .banner__cell--body
   text-align: center
-  margin-bottom: 24px
   width: 100%
 
   .btn
@@ -18,7 +17,6 @@
 
   +media-query(desk)
     text-align: left
-    margin-bottom: 0
     padding-top: 48px
     width: 60%
 
@@ -47,3 +45,11 @@
 .banner__p
   line-height: 1.5
   margin-bottom: 24px
+
+.banner__img
+  margin-bottom: 24px
+  > img
+    display: inline-block
+    margin-bottom: -7px
+  +media-query(desk)
+    margin-bottom: 0
