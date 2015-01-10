@@ -125,8 +125,8 @@ head
             h2.donate__title Apoiar BitVagas
           .donate__body
             p.donate__address BTC: 1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3</a>
-            a.donate__qrcode(href='bitcoin:1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3')
-              <img src="https://blockchain.info/pt/qr?data=1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3&size=200" alt="" />
+            a.donate__qrcode(href='bitcoin:1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3?label=BitVagas&message=Donation%20for%20Bitvagas')
+              #qrcode
 
         .contact
           .contact__head
@@ -174,3 +174,6 @@ head
               a(href='https://github.com/bitvagas/') Github
             li
               a(href='') Tip4Commit
+    script(src='#{ site_components }jquery/dist/jquery.min.js')
+    script(src='#{ site_components }jquery-qrcode/jquery.qrcode.min.js')
+    script(src='#{ site_js }bitvagas.js')
