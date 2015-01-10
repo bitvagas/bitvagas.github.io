@@ -1,6 +1,8 @@
 {
     "index": {
         "site_css":  "../css/",
+        "site_components":  "../components/",
+        "site_js":  "../js/",
         "site_img":  "../img/",
         "site_subtitle":  "Plataforma Open Source de vagas para usuários Bitcoin",
         "site_nav" : {
