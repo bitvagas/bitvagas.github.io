@@ -1,6 +1,6 @@
 *.swp
 *.swo
 *.swn
-bower_components/
+public/components/
 node_modules/
 www/
