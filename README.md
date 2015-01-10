@@ -8,6 +8,10 @@ A ready-to-go Gulp and Harp set up that does auto css injection via BrowserSync.
 $ [sudo] npm install
 ```
 
+```sh
+$ bower install
+```
+
 run:
 
 ```sh
