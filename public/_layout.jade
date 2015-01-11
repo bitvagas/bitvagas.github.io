@@ -1,14 +1,12 @@
-!!! 5
+doctype html
 html(lang='en')
-head
+  head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet' href='#{ site_css }main.css')
     title #{ site_title } - #{ site_subtitle }
   body
-    //
-       .head
     header.head
       .wrapper
         a.logo(href='index.html')
@@ -25,20 +23,10 @@ head
             a(href='#support') Apoiar
           li
             a(href='#contact') #{ site_nav.contact }
-    //
-       /.head
 
-    //
-       .main
     .main
-      //
-         .wrapper
       .wrapper
-        //
-           .banner
         .banner
-          //
-             .banner__cell
           .banner__cell.banner__cell--body
             h2.banner__title
               strong #{ slogan.strong }
@@ -46,10 +34,7 @@ head
             p.banner__p
               | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             a.btn.btn--large.btn--primary(href='') #{ btn_started }
-          //
-             /.banner__cell
-          //
-             .banner__cell
+
           .banner__cell.banner__cell--img
             .banner__img
               img(src='#{ site_img }img-1.png', alt='')
@@ -119,14 +104,13 @@ head
               h4.team-item__subtitle Assessor
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-
         .donate
           .donate__head
             h2.donate__title Apoiar BitVagas
           .donate__body
             p.donate__address BTC: 1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3</a>
             a.donate__qrcode(href='bitcoin:1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3?label=BitVagas&message=Donation%20for%20Bitvagas')
-              #qrcode
+                img(src='https://blockchain.info/qr?data=bitcoin:1MckjA4yZWgwo4kXFnE6ikbfPPuB3yCcx3?label=BitVagas&message=Donation%20for%20Bitvagas&size=200')
 
         .contact
           .contact__head
@@ -174,6 +158,3 @@ head
               a(href='https://github.com/bitvagas/') Github
             li
               a(href='') Tip4Commit
-    script(src='#{ site_components }jquery/dist/jquery.min.js')
-    script(src='#{ site_components }jquery-qrcode/jquery.qrcode.min.js')
-    script(src='#{ site_js }bitvagas.js')
