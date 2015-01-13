@@ -1,20 +1,70 @@
 {
     "index" : {
+        "lang": "en",
+        "site_url": "/",
         "site_css":  "css/",
         "site_components":  "components/",
         "site_js":  "js/",
         "site_img":  "img/",
         "site_subtitle":  "Open Source platform vacancies for Bitcoin users",
         "site_nav" : {
-            "started": "Get started",
             "about": "About",
+            "started": "Get started",
             "team": "Team",
+            "support": "Support",
             "contact": "Contact"
         },
-        "btn_started": "Get started",
-        "slogan": {
-            "strong": "Open Source platform",
-            "title": " vacancies for Bitcoin Users"
+        "banner": {
+            "btn": "Get started",
+            "slogan": {
+                "strong": "Open Source platform",
+                "title": " vacancies for Bitcoin Users"
+            },
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "about": {
+            "title": "About Us",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "started": {
+            "title": "Get Started",
+            "opensource": {
+                "title": "Open Source",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "btn": "Github"
+            },
+            "team": {
+                "title": "The Team",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "btn": "Team"
+            },
+            "support": {
+                "title": "Support the Project",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "btn": "Support"
+            }
+        },
+        "team": {
+            "title": "The Team",
+            "anderson": {
+                "text": "Responsive Design and Redesign Specialist. Passionate about open-source, visual design and cryptocurrencies."
+            },
+            "cesar": {
+                "text": "Game Developer enthusiast, passionate about open-source Web Technologies, Cryptocurrencies and curious at Programming Languages Research."
+            },
+            "randson": {
+                "text": "Passionate about technology and programming including Web Develpment, Open Source and Unix Systems."
+            },
+            "rodrigo": {
+                "subtitle": "Advisor",
+                "text": "C++, Python programmer and bitcoin enthusiast. A veteran of the financial sector, he worked as a software developer at the NYSE and BFM Bovespa."
+            }
+        },
+        "support": {
+            "title": "Support BitVagas"
+        },
+        "contact": {
+            "title": "Get in touch!"
         }
     }
 }
