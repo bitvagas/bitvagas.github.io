@@ -1,20 +1,70 @@
 {
     "index": {
+        "lang": "pt-br",
+        "site_url": "/pt-br/",
         "site_css":  "../css/",
         "site_components":  "../components/",
         "site_js":  "../js/",
         "site_img":  "../img/",
         "site_subtitle":  "Plataforma Open Source de vagas para usuários Bitcoin",
         "site_nav" : {
-            "started": "Começar",
             "about": "Sobre",
+            "started": "Começar",
             "team": "Time",
+            "support": "Apoiar",
             "contact": "Contato"
         },
-        "btn_started": "Começar",
-        "slogan": {
-            "strong": "Plataforma Open Source",
-            "title": " de vagas para usuários Bitcoin"
+        "banner": {
+            "btn": "Começar",
+            "slogan": {
+                "strong": "Plataforma Open Source",
+                "title": " de vagas para usuários Bitcoin"
+            },
+            "text": "Pense diferente anuncie vagas de emprego e encontre com facilidade colaboradores para seu projeto e os pague com Bitcoin."
+        },
+        "about": {
+            "title": "Sobre nós",
+            "text": "Somos uma startup open source inovadora afim de desenvolver a melhor plataforma de vagas e levar o uso de Bitcoin a lugares ainda não alcançados."
+        },
+        "started": {
+            "title": "Começar",
+            "opensource": {
+                "title": "Open Source",
+                "text": "Estamos em desenvolvimento, faça o clone do código fonte para teste ou colaboração.",
+                "btn": "Ver no Github"
+            },
+            "team": {
+                "title": "O Time",
+                "text": "Possuimos uma equipe descentralizada de mantenedores com ótimas habilidades.",
+                "btn": "Conheça o Time"
+            },
+            "support": {
+                "title": "Apoie o Projeto",
+                "text": "Gostou do BitVagas? Nos pague um café e ajude nosso projeto a crescer.",
+                "btn": "Apoiar"
+            }
+        },
+        "team": {
+            "title": "O Time",
+            "anderson": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "cesar": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "randson": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "rodrigo": {
+                "subtitle": "Assessor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        },
+        "support": {
+            "title": "Apoiar BitVagas"
+        },
+        "contact": {
+            "title": "Entrar em Contato"
         }
     }
 }
