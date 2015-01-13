@@ -1,0 +1,70 @@
+{
+    "index": {
+        "lang": "es",
+        "site_url": "/es/",
+        "site_css":  "../css/",
+        "site_components":  "../components/",
+        "site_js":  "../js/",
+        "site_img":  "../img/",
+        "site_subtitle":  "Plataforma Open Source de vagas para usuários Bitcoin",
+        "site_nav" : {
+            "about": "Acerca",
+            "started": "Comience",
+            "team": "Equipo",
+            "support": "Apoyo",
+            "contact": "Contacto"
+        },
+        "banner": {
+            "btn": "Começar",
+            "slogan": {
+                "strong": "Empleos Plataforma Open Source",
+                "title": "para los usuarios de Bitcoin"
+            },
+            "text": "Outro foco é fomentar contratantes e contratados a usarem btc como meio de pagamento no Brasil."
+        },
+        "about": {
+            "title": "Acerca",
+            "text": "Somos uma startup open source inovadora afim de desenvolver a melhor plataforma de vagas e levar o uso de Bitcoin a lugares ainda não alcançados."
+        },
+        "started": {
+            "title": "Comience",
+            "opensource": {
+                "title": "Open Source",
+                "text": "Colabore ou faça o download do código fonte e crie o seu próprio.",
+                "btn": "Ver no Github"
+            },
+            "team": {
+                "title": "El Equipo",
+                "text": "Possuimos uma equipe descentralizada de mantenedores com ótimas habilidades.",
+                "btn": "Conozca al equipo"
+            },
+            "support": {
+                "title": "Apoyar el Proyecto",
+                "text": "",
+                "btn": "Apoyo"
+            }
+        },
+        "team": {
+            "title": "El Equipo",
+            "anderson": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "cesar": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "randson": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "rodrigo": {
+                "subtitle": "Advisor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        },
+        "support": {
+            "title": "Apoyo BitVagas"
+        },
+        "contact": {
+            "title": "Cómo ponerse en contacto"
+        }
+    }
+}
