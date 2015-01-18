@@ -1,21 +1,74 @@
 .contact
-  padding: 48px 0
-  text-align: center
+  +cf
+  margin-bottom: 24px
+  padding: 48px 0 96px
+  +media-query(desk)
+    margin-left: -48px
+
+.contact__cell
+  +media-query(desk)
+    float: left
+    padding-left: 48px
+
+.contact__cell--main
+  +media-query(desk)
+    width: 70%
+
+.contact__cell--aside
+  +media-query(desk)
+    width: 30%
 
 .contact__title
   font-size: 38px
   line-height: 1.15
-  margin: 0 0 24px
   +media-query(desk)
     font-size: 41px
     line-height: 1.5
 
-.contact__img
-  display: inline-block
-  > svg
-    fill: #f39c12
-    height: 120px
-    width: 120px
-  &:hover
-    > svg
-      fill: mix(#f39c12, lighten(red, 12%))
+.contact-form
+  font-size: 16px
+  list-style: none
+  margin-left: 0
+  > li
+    margin-bottom: 14px
+    &:last-child
+      margin-bottom: 0
+  +media-query(desk)
+    > li
+      display: table
+      margin-bottom: 24px
+      width: 100%
+      &:last-child
+        margin-bottom: 0
+
+.contact-form__label
+  display: block
+  margin-bottom: 6px
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+    width: 25%
+
+.contact-form__input
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+
+.contact-form__message
+  font-size: 14px
+  padding-top: 6px
+
+.contact-action
+  background: whitesmoke
+  border-top: 1px solid #e5e5e5
+  padding: 14px 24px
+  +media-query(desk)
+    padding-left: 166px
+
+.contact-action__btn
+  display: block
+  width: 100%
+  +media-query(desk)
+    display: inline-block
+    width: auto
+

@@ -1,6 +1,9 @@
 .logo
-  float: left
-
-.logo__img
   display: block
-
+  > img
+    display: block
+    width: 170px
+  +media-query(lap)
+    > img
+      height: 40px
+      width: auto

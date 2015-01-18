@@ -12,7 +12,6 @@
 
 .team__body
   +cf
-
   margin-left: -48px
 
 .team-item
@@ -22,13 +21,12 @@
   padding-left: 48px
   vertical-align: top
   width: 100%
-
+  &:last-child
+    margin-bottom: 0
   > :last-child
     margin-bottom: 0
-
   +media-query(lap)
     width: 50%
-
   +media-query(desk)
     width: 33.333%
 

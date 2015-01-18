@@ -1,19 +1,45 @@
 .foot
-  padding: 48px 0
+  background: #1283b0
+  color: #fff
+  padding: 24px 0
   text-align: center
+  a
+    color: #fff
+  +media-query(desk)
+    padding: 48px 0
+    a
+      &:hover
+        text-decoration: underline
 
 .foot-top
-  display: none
-  margin-bottom: 24px
+  margin-bottom: 12px
+  +media-query(desk)
+    margin-bottom: 24px
 
 .foot-nav
-  font-size: 16px
+  font-size: 14px
   list-style: none
-  margin-bottom: 0
   margin-left: 0
+  text-align: left
   > li
-    display: inline-block
-    padding: 0 8px
+    border-bottom: 1px dotted #fff
+    > a
+      display: block
+      padding: 12px
+    &:last-child
+      border-bottom: none
+  +media-query(desk)
+    font-size: 16px
+    text-align: center
+    > li
+      border-bottom: none
+      display: inline-block
+      padding: 0 8px
+      > a
+        padding: 0
+
+.foot-copy
+  font-size: 13px
 
 .foot-logo
-  opacity: .8
+  display: block
