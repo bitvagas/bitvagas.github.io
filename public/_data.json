@@ -1,70 +1,133 @@
 {
-    "index" : {
+    "index": {
         "lang": "en",
+        "facebooklang": "en_US",
         "site_url": "/",
         "site_css":  "css/",
-        "site_components":  "components/",
+        "site_components":  "../components/",
         "site_js":  "js/",
         "site_img":  "img/",
-        "site_subtitle":  "Open Source platform vacancies for Bitcoin users",
+        "site_subtitle":  "Platform of jobs for Bitcoin users",
         "site_nav" : {
             "about": "About",
-            "started": "Get started",
             "team": "Team",
             "support": "Support",
-            "contact": "Contact"
+            "invite": "Get an invite",
+            "contact": "Contact",
+            "privacy": "Privacy Policy"
         },
         "banner": {
-            "btn": "Get started",
             "slogan": {
-                "strong": "Open Source platform",
-                "title": " vacancies for Bitcoin Users"
+                "strong": "Platform of jobs",
+                "title": " for Bitcoin users"
             },
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+            "btn": "Learn more"
         },
         "about": {
             "title": "About Us",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "We are a startup that offers modernity in the area of ad jobs. Our goal is to promote the use of Bitcoin in the global job market."
         },
         "started": {
-            "title": "Get Started",
             "opensource": {
                 "title": "Open Source",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "btn": "Github"
+                "text": "We are under construction, accompany the development of the project on Github.",
+                "btn": "View on Github"
             },
             "team": {
                 "title": "The Team",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "btn": "Team"
+                "text": "We formed a decentralized team of maintainers with great skills.",
+                "btn": "Meet us"
             },
             "support": {
                 "title": "Support the Project",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "text": "Liked BitVagas? Help us strengthen the project with your donation.",
                 "btn": "Support"
             }
         },
         "team": {
             "title": "The Team",
             "anderson": {
-                "text": "Responsive Design and Redesign Specialist. Passionate about open-source, visual design and cryptocurrencies."
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             "cesar": {
-                "text": "Game Developer enthusiast, passionate about open-source Web Technologies, Cryptocurrencies and curious at Programming Languages Research."
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             "randson": {
-                "text": "Passionate about technology and programming including Web Develpment, Open Source and Unix Systems."
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             "rodrigo": {
                 "subtitle": "Advisor",
-                "text": "C++, Python programmer and bitcoin enthusiast. A veteran of the financial sector, he worked as a software developer at the NYSE and BFM Bovespa."
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
+        },
+        "share": {
+            "title": "Connect with us"
         },
         "support": {
             "title": "Support BitVagas"
         },
-        "contact": {
-            "title": "Get in touch!"
+        "invite": {
+            "title": "Get the invitation",
+            "text": "Join our pre-launch!",
+            "input": {
+                "placeholder": "Your email",
+                "title": "Must be a valid email address"
+            },
+            "btn": "Invite me"
         }
+    },
+    "contact": {
+        "lang": "en",
+        "facebooklang": "en_US",
+        "site_url": "/",
+        "site_css":  "css/",
+        "site_components":  "../components/",
+        "site_js":  "js/",
+        "site_img":  "img/",
+        "site_subtitle":  "Contact",
+        "site_nav" : {
+            "about": "About",
+            "team": "Team",
+            "support": "Support",
+            "invite": "Get an invite",
+            "contact": "Contact",
+            "privacy": "Privacy Policy"
+        },
+        "title": "Contact",
+        "form": {
+            "name": {
+                "label": "Name",
+                "title": "Must contain a name"
+            },
+            "email": {
+                "label": "Email",
+                "title": "Must be a valid email address"
+            },
+            "msg": {
+                "label": "Message",
+                "title": "Message must have at least 20 characters"
+            },
+            "btn": "Send"
+        }
+    },
+    "privacy": {
+        "lang": "en",
+        "facebooklang": "en_US",
+        "site_url": "/",
+        "site_css": "css/",
+        "site_components":  "../components/",
+        "site_js": "js/",
+        "site_img": "img/",
+        "site_subtitle": "Privacy Policy",
+        "site_nav" : {
+            "about": "About",
+            "team": "Team",
+            "support": "Support",
+            "invite": "Get an invite",
+            "contact": "Contact",
+            "privacy": "Privacy Policy"
+        },
+        "title": "Privacy Policy"
     }
 }

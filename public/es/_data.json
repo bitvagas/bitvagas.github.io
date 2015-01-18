@@ -1,46 +1,47 @@
 {
     "index": {
         "lang": "es",
+        "facebooklang": "es_LA",
         "site_url": "/es/",
         "site_css":  "../css/",
         "site_components":  "../components/",
         "site_js":  "../js/",
         "site_img":  "../img/",
-        "site_subtitle":  "Plataforma Open Source de vagas para usuários Bitcoin",
+        "site_subtitle":  "Plataforma de puestos de trabajo para los usuarios de Bitcoin",
         "site_nav" : {
             "about": "Acerca",
-            "started": "Comience",
             "team": "Equipo",
             "support": "Apoyo",
-            "contact": "Contacto"
+            "invite": "Obtener invitación",
+            "contact": "Contacto",
+            "privacy": "Política de Privacidad"
         },
         "banner": {
-            "btn": "Começar",
             "slogan": {
-                "strong": "Empleos Plataforma Open Source",
-                "title": "para los usuarios de Bitcoin"
+                "strong": "Plataforma de puestos de trabajo",
+                "title": " para los usuarios de Bitcoin"
             },
-            "text": "Outro foco é fomentar contratantes e contratados a usarem btc como meio de pagamento no Brasil."
+            "text": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
+            "btn": "Aprender más"
         },
         "about": {
-            "title": "Acerca",
-            "text": "Somos uma startup open source inovadora afim de desenvolver a melhor plataforma de vagas e levar o uso de Bitcoin a lugares ainda não alcançados."
+            "title": "Sobre Nosotros",
+            "text": "Somos una startup que ofrece la modernidad en el ámbito de los trabajos de anuncios. Nuestro objetivo es promover el uso de Bitcoin en el mercado de trabajo global."
         },
         "started": {
-            "title": "Comience",
             "opensource": {
                 "title": "Open Source",
-                "text": "Colabore ou faça o download do código fonte e crie o seu próprio.",
-                "btn": "Ver no Github"
+                "text": "Estamos en construcción, acompañamos el desarrollo del proyecto en Github.",
+                "btn": "Ver en Github"
             },
             "team": {
                 "title": "El Equipo",
-                "text": "Possuimos uma equipe descentralizada de mantenedores com ótimas habilidades.",
-                "btn": "Conozca al equipo"
+                "text": "Formamos un equipo de mantenedores descentralizada con grandes habilidades.",
+                "btn": "Saber"
             },
             "support": {
                 "title": "Apoyar el Proyecto",
-                "text": "",
+                "text": "BitVagas gustado? Ayúdanos a fortalecer el proyecto con su donación.",
                 "btn": "Apoyo"
             }
         },
@@ -56,15 +57,77 @@
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             "rodrigo": {
-                "subtitle": "Advisor",
+                "subtitle": "Tutor",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         },
-        "support": {
-            "title": "Apoyo BitVagas"
+        "share": {
+            "title": "Conecte con nosotros"
         },
-        "contact": {
-            "title": "Cómo ponerse en contacto"
+        "support": {
+            "title": "BitVagas Apoyo"
+        },
+        "invite": {
+            "title": "Obtén la invitación",
+            "text": "Únete a nuestra pre-lanzamiento!",
+            "input": {
+                "placeholder": "Su correo electrónico",
+                "title": "Debe ser una dirección válida de correo electrónico"
+            },
+            "btn": "Invitarme"
         }
+    },
+    "contact": {
+        "lang": "es",
+        "facebooklang": "es_LA",
+        "site_url": "/es/",
+        "site_css":  "../css/",
+        "site_components":  "../components/",
+        "site_js":  "../js/",
+        "site_img":  "../img/",
+        "site_subtitle":  "Contacto",
+        "site_nav" : {
+            "about": "Acerca",
+            "team": "Equipo",
+            "support": "Apoyo",
+            "invite": "Obtener invitación",
+            "contact": "Contacto",
+            "privacy": "Política de Privacidad"
+        },
+        "title": "Contacto",
+        "form": {
+            "name": {
+                "label": "Nombre",
+                "title": "Debe contener un nombre"
+            },
+            "email": {
+                "label": "Email",
+                "title": "Debe ser una dirección válida de correo electrónico"
+            },
+            "msg": {
+                "label": "Mensaje",
+                "title": "Mensaje debe tener al menos 20 caracteres"
+            },
+            "btn": "Enviar"
+        }
+    },
+    "privacy": {
+        "lang": "es",
+        "facebooklang": "es_LA",
+        "site_url": "/es/",
+        "site_css":  "../css/",
+        "site_components":  "../components/",
+        "site_js":  "../js/",
+        "site_img":  "../img/",
+        "site_subtitle":  "Política de Privacidad",
+        "site_nav" : {
+            "about": "Acerca",
+            "team": "Equipo",
+            "support": "Apoyo",
+            "invite": "Obtener invitación",
+            "contact": "Contacto",
+            "privacy": "Política de Privacidad"
+        },
+        "title": "Política de Privacidad"
     }
 }
