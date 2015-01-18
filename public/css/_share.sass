@@ -1,0 +1,57 @@
+.share
+  padding: 48px 0
+  text-align: center
+
+.share__title
+  font-size: 38px
+  line-height: 1.15
+  +media-query(desk)
+    font-size: 41px
+    line-height: 1.5
+
+.share-list
+  +cf
+  list-style: none
+  margin: 0
+  > li
+    display: inline-block
+    margin: 0 24px
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+
+.share-list-item__link
+  display: block
+  padding: 14px 24px
+  > svg
+    display: block
+    fill: #fff
+    height: 70px
+    width: 70px
+
+.share-list-item__body
+  height: 37px
+  overflow: hidden
+  padding: 2px 6px 8px
+  > iframe
+    display: inline-block
+    margin-bottom: -7px
+
+.share-list-item--facebook
+  .share-list-item__link
+    background: #3468af
+    &:hover
+      background: #2e5c9b
+
+  .share-list-item__body
+    background: #1a4e95
+
+.share-list-item--twitter
+  .share-list-item__link
+    background: #4fc4f6
+    &:hover
+      background: #37bcf5
+
+  .share-list-item__body
+    background: #35aadc
