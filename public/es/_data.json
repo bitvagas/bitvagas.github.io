@@ -8,7 +8,7 @@
         "site_components":  "../components/",
         "site_js":  "../js/",
         "site_img":  "../img/",
-        "site_subtitle":  "Plataforma de puestos de trabajo para los usuarios de Bitcoin",
+        "site_subtitle":  "Plataforma de vacantes de trabajo para los usuarios de Bitcoin",
         "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
         "site_nav" : {
             "about": "Acerca",
@@ -20,47 +20,47 @@
         },
         "banner": {
             "slogan": {
-                "strong": "Plataforma de puestos de trabajo",
+                "strong": "Plataforma de vacantes de trabajo",
                 "title": " para los usuarios de Bitcoin"
             },
-            "text": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
-            "btn": "Aprender más"
+            "text": "Explore el universo Bitcoin y ayude a estimular la economía descentralizada. Contrate utilizando monedas digitales.",
+            "btn": "Conocer más"
         },
         "about": {
             "title": "Sobre Nosotros",
-            "text": "Somos una startup que ofrece la modernidad en el ámbito de los trabajos de anuncios. Nuestro objetivo es promover el uso de Bitcoin en el mercado de trabajo global."
+            "text": "Somos una startup que oferta modernidade en el ámbito de anuncios de vacantes de empleo. Nuestra meta es impulsar el uso del Bitcoin en el mercado mundial de trabajo."
         },
         "started": {
             "opensource": {
                 "title": "Open Source",
-                "text": "Estamos en construcción, acompañamos el desarrollo del proyecto en Github.",
+                "text": "Estamos en construcción, acompañe el desarrollo del proyecto en el Github.",
                 "btn": "Ver en Github"
             },
             "team": {
                 "title": "El Equipo",
-                "text": "Formamos un equipo de mantenedores descentralizada con grandes habilidades.",
-                "btn": "Saber"
+                "text": "Formamos un equipo descentralizado de mantenedores con óptimas habilidades.",
+                "btn": "Conocer"
             },
             "support": {
                 "title": "Apoyar el Proyecto",
-                "text": "BitVagas gustado? Ayúdanos a fortalecer el proyecto con su donación.",
+                "text": "Te gustó BitVagas? Ayúdanos a fortalecer el proyecto con su donación.",
                 "btn": "Apoyo"
             }
         },
         "team": {
             "title": "El Equipo",
             "anderson": {
-                "text": "Diseño Sensible y Rediseño Especialista. Apasionado por el código abierto, diseño visual y cryptocurrencies."
+                "text": "Responsive Design y Redesign especialista. Apasionado por open-source, design visual y cryptocurrencies."
             },
             "cesar": {
-                "text": "Juego entusiasta desarrollador, un apasionado de las tecnologías Web de código abierto, Cryptocurrencies y curiosos en lenguajes de programación de Investigación."
+                "text": "Game Developer entusiasta, apasionado por open-source Web Technologies, Cryptocurrencies y curioso en Programming Languages Research."
             },
             "randson": {
-                "text": "Apasionado por la tecnología y la programación incluyendo Web Develpment, Open Source y Sistemas Unix."
+                "text": "Apasionado por tecnología y programación incluyendo Web Develpment, Open-Source y sistemas Unix."
             },
             "rodrigo": {
                 "subtitle": "Tutor",
-                "text": "C ++, Python programador y un entusiasta de bitcoin. Un veterano del sector financiero, trabajó como desarrollador de software en el NYSE y BFM Bovespa."
+                "text": "Programador C++, Python y un bitcoin entusiasta. Un veterano del sector financiero, él trabajo como desarrollador de software en la NYSE y BFM Bovespa."
             }
         },
         "share": {
@@ -71,7 +71,7 @@
         },
         "invite": {
             "title": "Obtén la invitación",
-            "text": "Únete a nuestra pre-lanzamiento!",
+            "text": "Únete a nuestro pre-lanzamiento!",
             "input": {
                 "placeholder": "Su correo electrónico",
                 "title": "Debe ser una dirección válida de correo electrónico"
