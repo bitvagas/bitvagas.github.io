@@ -3,7 +3,7 @@ html(lang='#{ lang }')
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
-    meta(name='description' content='#{ banner.text }')
+    meta(name='description' content='#{ description }')
     meta(name='author' content='#{ site_title }')
     meta(name='revisit-after' content='5 days')
 
@@ -13,11 +13,11 @@ html(lang='#{ lang }')
     meta(property='og:url' content='http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }')
     meta(property='og:image' content='http://bitvagas.com/img/bitvagas-meta.jpg')
     meta(property='og:type' content='website')
-    meta(property='og:description' content='#{ banner.text }')
+    meta(property='og:description' content='#{ description }')
 
     meta(name='twitter:card' content='summary')
     meta(name='twitter:title' content='#{ site_title } - #{ site_subtitle }')
-    meta(name='twitter:description' content='#{ banner.text }')
+    meta(name='twitter:description' content='#{ description }')
     meta(name='twitter:image' content='http://bitvagas.com/img/bitvagas-meta.jpg')
     meta(name='twitter:site' content='@bitvagas')
 
@@ -27,7 +27,7 @@ html(lang='#{ lang }')
     link(rel='shortcut icon' href='http://bitvagas.com/favicon.ico' type='image/x-icon')
     link(rel='icon' href='http://bitvagas.com/favicon.ico' type='image/x-icon')
 
-    title #{ site_title } — #{ site_subtitle }
+    title #{ site_title } - #{ site_subtitle }
   body
     header.head
       .wrapper

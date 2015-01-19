@@ -1,5 +1,6 @@
 {
     "index": {
+        "source": "index",
         "lang": "pt-br",
         "facebooklang": "pt_BR",
         "site_url": "/pt-br/",
@@ -8,6 +9,7 @@
         "site_js":  "../js/",
         "site_img":  "../img/",
         "site_subtitle":  "Plataforma de vagas de trabalho para usuários Bitcoin",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",
@@ -78,6 +80,7 @@
         }
     },
     "contact": {
+        "source": "contact",
         "lang": "pt-br",
         "facebooklang": "pt_BR",
         "site_url": "/pt-br/",
@@ -86,6 +89,7 @@
         "site_js":  "../js/",
         "site_img":  "../img/",
         "site_subtitle":  "Contato",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",
@@ -112,6 +116,7 @@
         }
     },
     "privacy": {
+        "source": "privacy",
         "lang": "pt-br",
         "facebooklang": "pt_BR",
         "site_url": "/pt-br/",
@@ -120,6 +125,7 @@
         "site_js":  "../js/",
         "site_img":  "../img/",
         "site_subtitle":  "Política de Privacidade",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",

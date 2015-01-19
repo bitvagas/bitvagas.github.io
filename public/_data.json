@@ -1,5 +1,6 @@
 {
     "index": {
+        "source": "index",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
@@ -8,6 +9,7 @@
         "site_js":  "js/",
         "site_img":  "img/",
         "site_subtitle":  "Platform of jobs for Bitcoin users",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "site_nav" : {
             "about": "About",
             "team": "Team",
@@ -78,6 +80,7 @@
         }
     },
     "contact": {
+        "source": "contact",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
@@ -86,6 +89,7 @@
         "site_js":  "js/",
         "site_img":  "img/",
         "site_subtitle":  "Contact",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "site_nav" : {
             "about": "About",
             "team": "Team",
@@ -112,6 +116,7 @@
         }
     },
     "privacy": {
+        "source": "privacy",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
@@ -120,6 +125,7 @@
         "site_js": "js/",
         "site_img": "img/",
         "site_subtitle": "Privacy Policy",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "site_nav" : {
             "about": "About",
             "team": "Team",
