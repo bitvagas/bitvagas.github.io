@@ -48,17 +48,17 @@
         "team": {
             "title": "The Team",
             "anderson": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Responsive Design and Redesign Specialist. Passionate about open-source, visual design and cryptocurrencies."
             },
             "cesar": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Game Developer enthusiast, passionate about open-source Web Technologies, Cryptocurrencies and curious at Programming Languages Research."
             },
             "randson": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Passionate about technology and programming including Web Develpment, Open Source and Unix Systems."
             },
             "rodrigo": {
                 "subtitle": "Advisor",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "C++, Python programmer and bitcoin enthusiast. A veteran of the financial sector, he worked as a software developer at the NYSE and BFM Bovespa."
             }
         },
         "share": {
