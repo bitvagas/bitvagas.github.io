@@ -79,6 +79,7 @@
     },
     "contact": {
         "lang": "pt-br",
+        "facebooklang": "pt_BR",
         "site_url": "/pt-br/",
         "site_css":  "../css/",
         "site_components":  "../components/",
@@ -112,6 +113,7 @@
     },
     "privacy": {
         "lang": "pt-br",
+        "facebooklang": "pt_BR",
         "site_url": "/pt-br/",
         "site_css":  "../css/",
         "site_components":  "../components/",
