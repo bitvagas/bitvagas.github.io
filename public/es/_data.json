@@ -48,17 +48,17 @@
         "team": {
             "title": "El Equipo",
             "anderson": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Diseño Sensible y Rediseño Especialista. Apasionado por el código abierto, diseño visual y cryptocurrencies."
             },
             "cesar": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Juego entusiasta desarrollador, un apasionado de las tecnologías Web de código abierto, Cryptocurrencies y curiosos en lenguajes de programación de Investigación."
             },
             "randson": {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Apasionado por la tecnología y la programación incluyendo Web Develpment, Open Source y Sistemas Unix."
             },
             "rodrigo": {
                 "subtitle": "Tutor",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "C ++, Python programador y un entusiasta de bitcoin. Un veterano del sector financiero, trabajó como desarrollador de software en el NYSE y BFM Bovespa."
             }
         },
         "share": {
@@ -128,6 +128,8 @@
             "contact": "Contacto",
             "privacy": "Política de Privacidad"
         },
-        "title": "Política de Privacidad"
+        "title": "Política de Privacidad",
+        "p1": "Su información de registro previo no será utilizada o reproducida en cualquier forma por nuestro equipo, estos se utilizan únicamente para contactar vía correo electrónico, sobre BitVagas, como la apertura de pre-lanzamiento, noticias, investigación, etc.",
+        "p2": "Estas políticas pueden y se actualizarán según el desarrollo de BitVagas para satisfacer las necesidades legales de la plataforma. Cuando se producen estos cambios, se le notificará por correo electrónico de los cambios."
     }
 }
