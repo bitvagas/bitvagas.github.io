@@ -28,23 +28,23 @@
         },
         "about": {
             "title": "Sobre Nosotros",
-            "text": "Somos una startup que oferta modernidade en el ámbito de anuncios de vacantes de empleo. Nuestra meta es impulsar el uso del Bitcoin en el mercado mundial de trabajo."
+            "text": "Somos una startup que ofrece innovación en el ámbito de anuncios de vacantes de empleo. Nuestra meta es impulsar el uso del Bitcoin en el mercado mundial de trabajo."
         },
         "started": {
             "opensource": {
                 "title": "Open Source",
-                "text": "Estamos en construcción, acompañe el desarrollo del proyecto en el Github.",
+                "text": "Estamos en construcción, acompañe el desarrollo del proyecto en Github.",
                 "btn": "Ver en Github"
             },
             "team": {
                 "title": "El Equipo",
-                "text": "Formamos un equipo descentralizado de mantenedores con óptimas habilidades.",
+                "text": "Formamos un equipo descentralizado de desarrolladores con óptimas habilidades.",
                 "btn": "Conocer"
             },
             "support": {
                 "title": "Apoyar el Proyecto",
                 "text": "Te gustó BitVagas? Ayudanos a fortalecer el proyecto con tú donación.",
-                "btn": "Apoyo"
+                "btn": "Ayuda"
             }
         },
         "team": {
@@ -60,14 +60,14 @@
             },
             "rodrigo": {
                 "subtitle": "Tutor",
-                "text": "Programador C++, Python y un bitcoin entusiasta. Un veterano del sector financiero, él trabajó como desarrollador de software en la NYSE y BFM Bovespa."
+                "text": "Programador C++, Python y entusiasta del bitcoin. Un veterano del sector financiero, él trabajó como desarrollador de software en la NYSE y BFM Bovespa."
             }
         },
         "share": {
             "title": "Conectate con nosotros"
         },
         "support": {
-            "title": "BitVagas Apoyo"
+            "title": "BitVagas Ayuda"
         },
         "invite": {
             "title": "Obtené la invitación",
