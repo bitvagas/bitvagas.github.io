@@ -33,17 +33,17 @@
         "started": {
             "opensource": {
                 "title": "Open Source",
-                "text": "We are under construction, accompany the development of the project on Github.",
+                "text": "We are under construction, follow the development of the project on Github.",
                 "btn": "View on Github"
             },
             "team": {
                 "title": "The Team",
-                "text": "We formed a decentralized team of maintainers with great skills.",
+                "text": "We form a decentralized team of maintainers with great skills.",
                 "btn": "Meet us"
             },
             "support": {
                 "title": "Support the Project",
-                "text": "Liked BitVagas? Help us strengthen the project with your donation.",
+                "text": "Did you like BitVagas? Help us strengthen the project with your donation.",
                 "btn": "Support"
             }
         },
@@ -56,7 +56,7 @@
                 "text": "Game Developer enthusiast, passionate about open-source Web Technologies, Cryptocurrencies and curious at Programming Languages Research."
             },
             "randson": {
-                "text": "Passionate about technology and programming including Web Develpment, Open Source and Unix Systems."
+                "text": "Passionate about technology and programming including Web Development, Open Source and Unix Systems."
             },
             "rodrigo": {
                 "subtitle": "Advisor",

@@ -43,34 +43,34 @@
             },
             "support": {
                 "title": "Apoyar el Proyecto",
-                "text": "Te gustó BitVagas? Ayúdanos a fortalecer el proyecto con su donación.",
+                "text": "Te gustó BitVagas? Ayudanos a fortalecer el proyecto con tú donación.",
                 "btn": "Apoyo"
             }
         },
         "team": {
             "title": "El Equipo",
             "anderson": {
-                "text": "Responsive Design y Redesign especialista. Apasionado por open-source, design visual y cryptocurrencies."
+                "text": "Responsive Design y Redesign especialista. Aficcionado por open-source, design visual y cryptocurrencies."
             },
             "cesar": {
-                "text": "Game Developer entusiasta, apasionado por open-source Web Technologies, Cryptocurrencies y curioso en Programming Languages Research."
+                "text": "Game Developer entusiasta, aficcionado por open-source Web Technologies, Cryptocurrencies y curioso en Programming Languages Research."
             },
             "randson": {
-                "text": "Apasionado por tecnología y programación incluyendo Web Develpment, Open-Source y sistemas Unix."
+                "text": "Aficcionado por tecnología y programación incluyendo Web Develpment, Open-Source y sistemas Unix."
             },
             "rodrigo": {
                 "subtitle": "Tutor",
-                "text": "Programador C++, Python y un bitcoin entusiasta. Un veterano del sector financiero, él trabajo como desarrollador de software en la NYSE y BFM Bovespa."
+                "text": "Programador C++, Python y un bitcoin entusiasta. Un veterano del sector financiero, él trabajó como desarrollador de software en la NYSE y BFM Bovespa."
             }
         },
         "share": {
-            "title": "Conecte con nosotros"
+            "title": "Conectate con nosotros"
         },
         "support": {
             "title": "BitVagas Apoyo"
         },
         "invite": {
-            "title": "Obtén la invitación",
+            "title": "Obtené la invitación",
             "text": "Únete a nuestro pre-lanzamiento!",
             "input": {
                 "placeholder": "Su correo electrónico",
