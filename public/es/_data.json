@@ -8,7 +8,7 @@
         "site_components":  "../components/",
         "site_js":  "../js/",
         "site_img":  "../img/",
-        "site_subtitle":  "Plataforma de vacantes de trabajo para los usuarios de Bitcoin",
+        "site_subtitle":  "Plataforma de puestos de trabajo para los usuarios de Bitcoin",
         "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
         "site_nav" : {
             "about": "Acerca",
@@ -20,7 +20,7 @@
         },
         "banner": {
             "slogan": {
-                "strong": "Plataforma de vacantes de trabajo",
+                "strong": "Plataforma de puestos de trabajo",
                 "title": " para los usuarios de Bitcoin"
             },
             "text": "Explore el universo Bitcoin y ayude a estimular la economía descentralizada. Contrate utilizando monedas digitales.",
@@ -28,7 +28,7 @@
         },
         "about": {
             "title": "Sobre Nosotros",
-            "text": "Somos una startup que ofrece innovación en el ámbito de anuncios de vacantes de empleo. Nuestra meta es impulsar el uso del Bitcoin en el mercado mundial de trabajo."
+            "text": "Somos una startup que ofrece innovación en el ámbito de anuncios de puestos de trabajo. Nuestra meta es impulsar el uso del Bitcoin en el mercado mundial de trabajo."
         },
         "started": {
             "opensource": {
