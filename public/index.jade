@@ -26,7 +26,7 @@
           img.started-item__img(src="#{ site_img }github.png")
           h3.started-item__title #{ started.opensource.title }
           p #{ started.opensource.text }
-          a.btn.btn--primary(href="https://github.com/bitvagas/") #{ started.opensource.btn }
+          a.btn.btn--primary(href="https://github.com/bitvagas/" target='_blank') #{ started.opensource.btn }
 
         .started-item
           img.started-item__img(src="#{ site_img }team.png")
@@ -46,28 +46,28 @@
 
       .team__body
         .team-item
-          .team-item__img
+          a(href='https://github.com/Anderson-Juhasc' target='_blank').team-item__img
             img(src="#{ site_img }anderson-juhasc.png")
           h3.team-item__title Anderson Juhasc
           h4.team-item__subtitle Front-End/UI Developer
           p #{ team.anderson.text }
 
         .team-item
-          .team-item__img
+          a(href='https://github.com/cesardeazevedo/' target='_blank').team-item__img
             img(src="#{ site_img }cesar-azevedo.png")
           h3.team-item__title Cesar Azevedo
           h4.team-item__subtitle Web Developer
           p #{ team.cesar.text }
 
         .team-item
-          .team-item__img
+          a(href='https://github.com/randsonjs' target='_blank').team-item__img
             img(src="#{ site_img }randson-oliveira.png")
           h3.team-item__title Randson Oliveira
           h4.team-item__subtitle Front-End Developer
           p #{ team.randson.text }
 
         .team-item
-          .team-item__img
+          a(href='https://github.com/pinhopro' target='_blank').team-item__img
             img(src="#{ site_img }rodrigo-souza.png")
           h3.team-item__title Rodrigo Souza
           h4.team-item__subtitle #{ team.rodrigo.subtitle }
