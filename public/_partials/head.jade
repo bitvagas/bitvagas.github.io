@@ -62,7 +62,10 @@ html(lang='#{ lang }')
             li
               a(href='#{ site_url }contact.html') #{ site_nav.contact }
             li.dropdown
-              .dropdown__active #{lang}
+              .dropdown-active
+                .dropdown-active__icon
+                  img(src='#{ site_img }icon-lang.svg')
+                .dropdown-active__text #{lang}
               ul.dropdown__body
                 li
                   a(href='/') EN

@@ -6,13 +6,14 @@
     background: transparent
     padding: 0
     &:hover
-      .dropdown__active
+      .dropdown-active
         background: #fff
         border-color: rgba(#000, .2)
       .dropdown__body
         display: block
 
-.dropdown__active
+.dropdown-active
+  +cf
   border-bottom: 1px solid rgba(#000, .08)
   font-weight: 700
   padding: 12px 6px 6px
@@ -27,6 +28,17 @@
     padding: 12px
     position: relative
     z-index: 333
+
+.dropdown-active__icon
+  float: left
+  margin-right: 4px
+  > img
+    display: block
+    height: 14px
+    width: 14px
+
+.dropdown-active__text
+  float: left
 
 .dropdown__body
   list-style: none
