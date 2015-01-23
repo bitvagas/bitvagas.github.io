@@ -1,19 +1,3 @@
-# Harp, Gulp And BrowserSync
+# [bitvagas.com](http://bitvagas.com)
 
-A ready-to-go Gulp and Harp set up that does auto css injection via BrowserSync.
-
-## Install
-
-```sh
-$ [sudo] npm install
-```
-
-```sh
-$ bower install
-```
-
-run:
-
-```sh
-$ gulp
-```
+Platform of Jobs for Bitcoin Users.
