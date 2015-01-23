@@ -1,12 +1,13 @@
 .foot
+  +cf
   background: #1283b0
   color: #fff
   padding: 24px 0
-  text-align: center
   a
     color: #fff
   +media-query(desk)
     padding: 48px 0
+    text-align: center
     a
       &:hover
         text-decoration: underline
@@ -20,7 +21,6 @@
   font-size: 14px
   list-style: none
   margin-left: 0
-  text-align: left
   > li
     border-bottom: 1px dotted #fff
     > a
@@ -30,13 +30,25 @@
       border-bottom: none
   +media-query(desk)
     font-size: 16px
-    text-align: center
     > li
       border-bottom: none
       display: inline-block
       padding: 0 8px
       > a
         padding: 0
+
+.foot-social
+  list-style: none
+  margin-left: 0
+  +media-query(desk)
+    > li
+      border-bottom: none
+      display: inline-block
+      padding: 0 8px
+      > a,
+      > iframe
+        padding: 0
+
 
 .foot-copy
   font-size: 13px
