@@ -10,11 +10,12 @@
         "site_img":  "../img/",
         "site_subtitle":  "Plataforma de puestos de trabajo para los usuarios de Bitcoin",
         "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
+        "tweet": "Plataforma de puestos de trabajo para los usuarios de #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Acerca",
             "team": "Equipo",
             "support": "Apoyo",
-            "invite": "Obtener invitación",
+            "invite": "Newsletter",
             "contact": "Contacto",
             "privacy": "Política de Privacidad"
         },
@@ -70,13 +71,13 @@
             "title": "BitVagas Ayuda"
         },
         "invite": {
-            "title": "Obtené la invitación",
+            "title": "Recibir noticias",
             "text": "Únete a nuestro pre-lanzamiento!",
             "input": {
                 "placeholder": "Su correo electrónico",
                 "title": "Debe ser una dirección válida de correo electrónico"
             },
-            "btn": "Invitarme"
+            "btn": "Suscribirse"
         }
     },
     "contact": {
@@ -90,6 +91,7 @@
         "site_img":  "../img/",
         "site_subtitle":  "Contacto",
         "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
+        "tweet": "Plataforma de puestos de trabajo para los usuarios de #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Acerca",
             "team": "Equipo",
@@ -126,6 +128,7 @@
         "site_img":  "../img/",
         "site_subtitle":  "Política de Privacidad",
         "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales.",
+        "tweet": "Plataforma de puestos de trabajo para los usuarios de #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Acerca",
             "team": "Equipo",

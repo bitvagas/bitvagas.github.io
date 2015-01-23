@@ -10,11 +10,12 @@
         "site_img":  "img/",
         "site_subtitle":  "Platform of jobs for Bitcoin users",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "About",
             "team": "Team",
             "support": "Support",
-            "invite": "Get an invite",
+            "invite": "Newsletter",
             "contact": "Contact",
             "privacy": "Privacy Policy"
         },
@@ -70,13 +71,13 @@
             "title": "Support BitVagas"
         },
         "invite": {
-            "title": "Get the invitation",
+            "title": "Receive News",
             "text": "Join our pre-launch!",
             "input": {
                 "placeholder": "Your email",
                 "title": "Must be a valid email address"
             },
-            "btn": "Invite me"
+            "btn": "Subscribe"
         }
     },
     "contact": {
@@ -90,11 +91,12 @@
         "site_img":  "img/",
         "site_subtitle":  "Contact",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "About",
             "team": "Team",
             "support": "Support",
-            "invite": "Get an invite",
+            "invite": "Newsletter",
             "contact": "Contact",
             "privacy": "Privacy Policy"
         },
@@ -126,11 +128,12 @@
         "site_img": "img/",
         "site_subtitle": "Privacy Policy",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "About",
             "team": "Team",
             "support": "Support",
-            "invite": "Get an invite",
+            "invite": "Newsletter",
             "contact": "Contact",
             "privacy": "Privacy Policy"
         },

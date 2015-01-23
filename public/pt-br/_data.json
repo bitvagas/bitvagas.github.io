@@ -10,11 +10,12 @@
         "site_img":  "../img/",
         "site_subtitle":  "Plataforma de vagas de trabalho para usuários Bitcoin",
         "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",
             "support": "Apoiar",
-            "invite": "Obter convite",
+            "invite": "Newsletter",
             "contact": "Contato",
             "privacy": "Política de Privacidade"
         },
@@ -70,13 +71,13 @@
             "title": "Apoiar BitVagas"
         },
         "invite": {
-            "title": "Obtenha o convite",
+            "title": "Receba novidades",
             "text": "Faça parte do nosso pré-lançamento!",
             "input": {
                 "placeholder": "Seu email",
                 "title": "Precisa ser um endereço de e-mail válido"
             },
-            "btn": "Convide-me"
+            "btn": "Assinar"
         }
     },
     "contact": {
@@ -90,11 +91,12 @@
         "site_img":  "../img/",
         "site_subtitle":  "Contato",
         "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",
             "support": "Apoiar",
-            "invite": "Obter convite",
+            "invite": "Newsletter",
             "contact": "Contato",
             "privacy": "Política de Privacidade"
         },
@@ -126,11 +128,12 @@
         "site_img":  "../img/",
         "site_subtitle":  "Política de Privacidade",
         "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "tweet": "Plataforma de vagas de trabalho para usuários #Bitcoin. @bitvagas #startup",
         "site_nav" : {
             "about": "Sobre",
             "team": "Equipe",
             "support": "Apoiar",
-            "invite": "Obter convite",
+            "invite": "Newsletter",
             "contact": "Contato",
             "privacy": "Política de Privacidade"
         },
