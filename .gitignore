@@ -1,4 +1,5 @@
 *.swp
+*.swm
 *.swo
 *.swn
 public/components/
