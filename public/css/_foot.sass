@@ -40,18 +40,24 @@
 .foot-social
   list-style: none
   margin-left: 0
-  +media-query(desk)
+  margin-bottom: 12px
+  text-align: center
+  > li
+    border-bottom: none
+    display: inline-block
+    margin-bottom: 12px
+    padding: 0 8px
+    > a,
+    > iframe
+      padding: 0
+  +media-query(lap)
+    margin-bottom: 24px
     > li
-      border-bottom: none
-      display: inline-block
-      padding: 0 8px
-      > a,
-      > iframe
-        padding: 0
-
+      margin-bottom: 0
 
 .foot-copy
   font-size: 13px
+  text-align: center
 
 .foot-logo
   display: block
