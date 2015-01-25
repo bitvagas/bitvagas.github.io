@@ -1,5 +1,9 @@
 {
     "globals" : {
-        "site_title" : "BitVagas"
+        "site_title" : "BitVagas",
+        "site_css":  "/css/",
+        "site_components":  "../components/",
+        "site_js":  "/js/",
+        "site_img":  "/img/"
     }
 }
