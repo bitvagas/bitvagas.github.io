@@ -3,19 +3,19 @@ footer.foot
     .foot-bot
       ul.foot-nav
         li
-          a(href='index.html#about') #{ site_nav.about }
+          a(href='index.html#about') #{ public[lang]._data.index.site_nav.about }
         li
-          a(href='index.html#team') #{ site_nav.team }
+          a(href='index.html#team') #{ public[lang]._data.index.site_nav.team }
         li
-          a(href='index.html#support') #{ site_nav.support }
+          a(href='index.html#support') #{ public[lang]._data.index.site_nav.support }
         li
           a(href='https://github.com/bitvagas/') Github
         li
           a(href='https://tip4commit.com/github/bitvagas/bitvagas') Tip4Commit
         li
-          a(href='#{ site_url }privacy.html') #{ site_nav.privacy }
+          a(href='#{ site_url }privacy.html') #{ public[lang]._data.index.site_nav.privacy }
         li
-          a(href='#{ site_url }contact.html') #{ site_nav.contact }
+          a(href='#{ site_url }contact.html') #{ public[lang]._data.index.site_nav.contact }
 
       ul.foot-social
         li
