@@ -140,5 +140,27 @@
         "title": "Privacy Policy",
         "p1": "Their pre registration information will not be used or reproduced in any way by our team, these being used only to contact via email, about BitVagas, such as opening of pre-release, newsletter, research, etc.",
         "p2": "These policies can and will be updated as the development of BitVagas to meet the platform's legal needs. When these changes occur, you will be notified via email of the changes."
+    },
+    "explore": {
+        "source": "explore",
+        "lang": "en",
+        "facebooklang": "en_US",
+        "site_url": "/",
+        "site_css": "css/",
+        "site_components":  "../components/",
+        "site_js": "js/",
+        "site_img": "img/",
+        "site_subtitle": "Explorar",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
+        "site_nav" : {
+            "about": "About",
+            "team": "Team",
+            "support": "Support",
+            "invite": "Newsletter",
+            "contact": "Contact",
+            "privacy": "Privacy Policy"
+        },
+        "title": "Explorar"
     }
 }
