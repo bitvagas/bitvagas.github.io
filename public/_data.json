@@ -17,7 +17,8 @@
             "support": "Support",
             "invite": "Newsletter",
             "contact": "Contact",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "post": "Post Job"
         },
         "banner": {
             "slogan": {
@@ -80,6 +81,9 @@
             "btn": "Subscribe"
         }
     },
+    "post":{
+	"paragraph":"Este é um paragrafo de exemplo"
+    },
     "contact": {
         "source": "contact",
         "lang": "en",
@@ -98,7 +102,8 @@
             "support": "Support",
             "invite": "Newsletter",
             "contact": "Contact",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "post": "Post Job"
         },
         "title": "Contact",
         "form": {
@@ -135,7 +140,8 @@
             "support": "Support",
             "invite": "Newsletter",
             "contact": "Contact",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "post": "Post Job"
         },
         "title": "Privacy Policy",
         "p1": "Their pre registration information will not be used or reproduced in any way by our team, these being used only to contact via email, about BitVagas, such as opening of pre-release, newsletter, research, etc.",
