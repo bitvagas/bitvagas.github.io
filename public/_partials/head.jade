@@ -32,7 +32,7 @@ html(lang='#{ lang }')
     header.head
       .wrapper
         .head-top
-          a.logo(href='#{ site_url }')
+          a.logo(href='#{ public[lang]._data.index.site_url }')
             img(src='#{ site_img }bitvagas.svg')
           a.head-btn(href='#')
             svg#Layer_1.head-btn__open(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='100px', height='100px', viewbox='0 0 100 100', enable-background='new 0 0 100 100', xml:space='preserve')
@@ -52,15 +52,15 @@ html(lang='#{ lang }')
         .head-bot
           ul.head-nav
             li
+              a(href='#{ public[lang]._data.index.site_url }post') Post a Job
+            li
               a(href='index.html#about') #{ public[lang]._data.index.site_nav.about }
             li
               a(href='index.html#team') #{ public[lang]._data.index.site_nav.team }
             li
               a(href='index.html#support') #{ public[lang]._data.index.site_nav.support }
             li
-              a(href='index.html#invite') #{ public[lang]._data.index.site_nav.invite }
-            li
-              a(href='#{ site_url }contact.html') #{ public[lang]._data.index.site_nav.contact }
+              a(href='#{ public[lang]._data.index.site_url }contact') #{ public[lang]._data.index.site_nav.contact }
             li.dropdown
               .dropdown-active
                 .dropdown-active__icon
