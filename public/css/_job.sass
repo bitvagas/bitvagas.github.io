@@ -1,0 +1,38 @@
+.job
+  +cf
+  font-size: 14px
+  margin-bottom: 24px
+  padding: 48px 0 96px
+  +media-query(desk)
+    margin-left: -48px
+
+.job__cell
+  +media-query(desk)
+    float: left
+    padding-left: 48px
+
+.job__cell--main
+  +media-query(desk)
+    width: 70%
+
+.job__cell--aside
+  +media-query(desk)
+    width: 30%
+
+.job__head
+  border-bottom: 1px solid #e5e5e5
+  margin-bottom: 24px
+
+.job__title
+  font-size: 46px
+  line-height: 1.2
+
+.job-info
+  +cf
+  list-style: none
+  margin-left: 0
+  > li
+    float: left
+    margin-right: 18px
+    &:last-child
+      margin-right: 0
