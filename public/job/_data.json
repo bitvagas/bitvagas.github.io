@@ -1,15 +1,10 @@
 {
-    "job-model": {
-        "title": "Vaga Modelo",
-        "source": "explore",
+    "index": {
+        "slug": "index",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
-        "site_css": "../css/",
-        "site_components":  "../components/",
-        "site_js": "../js/",
-        "site_img": "../img/",
-        "site_subtitle": "Web Designer na Blockchain",
+        "site_subtitle":  "Platform of jobs for Bitcoin users",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
         "site_nav" : {
@@ -20,5 +15,33 @@
             "contact": "Contact",
             "privacy": "Privacy Policy"
         }
+    },
+    "job-model": {
+        "layout": "../_layout-job-show",
+        "slug": "job-model",
+        "lang": "en",
+        "facebooklang": "en_US",
+        "site_subtitle": "Web Designer na Blockchain",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tags": "",
+        "img": "",
+        "title": "Web Designer Senior",
+        "company": "Blockchain",
+        "job_type": "Freelance",
+        "local": "",
+        "website": "https://blockchain.info/",
+        "date": "10 Dez",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "skills": ""
+    },
+    "job-model-2": {
+        "layout": "../_layout-job-show",
+        "slug": "job-model-2",
+        "title": "Front-End Senior",
+        "lang": "en",
+        "job_type": "Full-Time",
+        "facebooklang": "en_US",
+        "site_subtitle": "Web Designer na Blockchain",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
     }
 }
