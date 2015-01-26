@@ -24,7 +24,15 @@ $ cd bitvagas.github.io
 $ [sudo] npm install
 ```
 
+```sh
+$ bower install
+```
+
 Now you're good to go!
+
+```sh
+$ gulp
+```
 
 ## Contributing
 
