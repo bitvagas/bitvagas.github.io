@@ -80,7 +80,6 @@
         "source": "contact",
         "lang": "en",
         "facebooklang": "en_US",
-        "site_url": "/",
         "site_subtitle":  "Contact",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Contact",
@@ -104,7 +103,6 @@
         "source": "privacy",
         "lang": "en",
         "facebooklang": "en_US",
-        "site_url": "/",
         "site_subtitle": "Privacy Policy",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Privacy Policy",
@@ -115,21 +113,8 @@
         "source": "explore",
         "lang": "en",
         "facebooklang": "en_US",
-        "site_url": "/",
-        "site_css": "css/",
-        "site_components":  "../components/",
-        "site_js": "js/",
-        "site_img": "img/",
         "site_subtitle": "Explorar",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "site_nav" : {
-            "about": "About",
-            "team": "Team",
-            "support": "Support",
-            "invite": "Newsletter",
-            "contact": "Contact",
-            "privacy": "Privacy Policy"
-        },
         "title": "Explorar"
     }
 }
