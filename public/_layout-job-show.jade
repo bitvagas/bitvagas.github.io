@@ -1,0 +1,57 @@
+!= partial("_partials/head")
+
+.main
+  .wrapper
+    .job
+      .job__cell.job__cell--main
+        header.job__head
+          .job-media
+            img(src='#{ site_img }bitvagas100x100.png').job-media__img
+            .job-media__body
+              h1.job__title  #{ title } <span class="job__company">na <a href="">#{ company }</a></span>
+          ul.job-info
+            li
+              |  <div class="label label--#{ (job_type).toLowerCase() }">#{ job_type }</div>
+            li
+              .job__local Anywhere
+            li
+              .job__date 10/01/2015
+
+        .job__body
+          h6 Descrição do trabalho:
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          h6 Habilidades:
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          p
+            a.btn.btn--medium.btn--primary(href='') Candidatar-se à vaga
+        footer.job-foot
+      .job__cell.job__cell--aside
+        a.job-logo
+        .last-jobs(style="display:none;")
+          h3.last-jobs-title Últimas Vagas
+          ul.last-jobs-list
+            li
+              a.last-jobs-list-item(href='')
+                h6.last-jobs-list-item__title Back-End Developer
+                ul.last-jobs-list-item__breadcrumb
+                  li Presidente Prudente
+                  li Empresa
+                  li Freelance
+
+            li
+              a.last-jobs-list-item(href='')
+                h6.last-jobs-list-item__title Designer
+                ul.last-jobs-list-item__breadcrumb
+                  li Presidente Prudente
+                  li Empresa
+                  li Fixo
+
+            li
+              a.last-jobs-list-item(href='')
+                h6.last-jobs-list-item__title Full Stack Developer
+                ul.last-jobs-list-item__breadcrumb
+                  li Presidente Prudente
+                  li Empresa
+                  li Estágio
+
+!= partial("_partials/foot")
