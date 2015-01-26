@@ -1,9 +1,31 @@
 .main
   .wrapper
     .explore
-      .contact__cell.contact__cell--main
-        header.explore__head
-          h1.explore__title Explorar
-        .explore__body
+      header.explore__head
+        h1.explore-title
+          | Anúncie Vagas <span class="explore-title__normal">de trabalho</span>
+          br
+          | Pague com <span class="explore-title__normal">Moeda Digital</span>
+      .explore__body
+        .explore__cell.explore__cell--main
+          ul.jobs
+            for job in public.job._data
+              if (job.slug !== "index")
+                li
+                  a.jobs-item(href='/job/#{ job.slug }' title='')
+                    .jobs-item__cell.jobs-item__cell--img
+                      img.jobs-item__img(src='/img/company-default.png' alt='')
 
-      .contact__cell.contact__cell--aside
+                    .jobs-item__cell.jobs-item__cell--body
+                      h2.jobs-item__title= job.title
+                      h3.jobs-item__company Blockchain (London)
+
+                    .jobs-item__cell.jobs-item__cell--meta
+                      .jobs-item__type
+                        |  <div class="label label--#{ (job.job_type).toLowerCase() }">#{ (job.job_type) }</div>
+                      .jobs-item__date 01 Nov
+
+        .explore__cell.explore__cell--aside
+          .explore-post
+            a.explore-post__btn.btn.btn--primary.btn--large(href='post' title='Postar Vaga Grátis') Postar Vaga
+            p.explore-post__info Anuncie por 30 dias grátis
