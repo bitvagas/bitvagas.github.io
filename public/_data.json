@@ -7,7 +7,7 @@
         "site_url": "/",
         "site_subtitle":  "Platform of jobs for Bitcoin users",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
+        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #bitvagas #startup",
         "site_nav" : {
             "about": "About",
             "team": "Team",
@@ -78,23 +78,13 @@
         }
     },
     "post":{
-	"paragraph":"Este é um paragrafo de exemplo",
+	    "paragraph":"Este é um paragrafo de exemplo",
         "source": "contact",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
         "site_subtitle":  "Contact",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
-        "site_nav" : {
-            "about": "About",
-            "team": "Team",
-            "support": "Support",
-            "invite": "Newsletter",
-            "contact": "Contact",
-            "privacy": "Privacy Policy",
-            "post": "Post Job"
-        }
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
     },
     "contact": {
         "source": "contact",
