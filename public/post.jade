@@ -1,0 +1,43 @@
+.post-job
+  p #{ paragraph.text }
+    form#invite_form.invite-form(action='https://docs.google.com/forms/d/13lgovqONgIuFDn7S5fxLLyJ4y-_zIAhMwWv0TRiYne4/formResponse' method='POST' target='_self')
+      input#entry_1840619439.ss-q-short.required(type='text', name='entry.1840619439', value='', dir='auto', aria-label='Language: [EN], [ES] or [PT_BR] Must contain ', aria-required='true', required='', pattern='.*.*', title='Must contain ')
+      input#entry_504464673.ss-q-short.required(type='text', name='entry.504464673', value='', dir='auto', aria-label='Título da Vaga Qual vaga ou serviço esta sendo cadastrada? ', aria-required='true', required='', title='')
+      <input type="email" name="entry.1577311315" value="" class="ss-q-short" id="entry_1577311315" dir="auto" aria-label="Email:  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+      input#entry_1179184862.ss-q-short.required(type='text', name='entry.1179184862', value='', dir='auto', aria-label='Empresa Para qual empresa a vaga ou serviço esta sendo cadastrado? ', aria-required='true', required='', title='')
+      ul.ss-choices(role='radiogroup', aria-label='Tipo de vaga  ')
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_288337561_1.ss-q-radio(type='radio', name='entry.288337561', value='Full-time', role='radio', aria-label='Full-time', required='', aria-required='true')
+        span.ss-choice-label Full-time
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_288337561_2.ss-q-radio(type='radio', name='entry.288337561', value='Part-time', role='radio', aria-label='Part-time', required='', aria-required='true')
+        span.ss-choice-label Part-time
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_288337561_3.ss-q-radio(type='radio', name='entry.288337561', value='Freelance', role='radio', aria-label='Freelance', required='', aria-required='true')
+        span.ss-choice-label Freelance
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_288337561_4.ss-q-radio(type='radio', name='entry.288337561', value='Temporary', role='radio', aria-label='Temporary', required='', aria-required='true')
+        span.ss-choice-label Temporary
+      ul.ss-choices(role='radiogroup', aria-label='Local de Trabalho  ')
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_307620538_1.ss-q-radio(type='radio', name='entry.307620538', value='Alocado', role='radio', aria-label='Alocado')
+        span.ss-choice-label Alocado
+      li.ss-choice-item
+      label
+        span.ss-choice-item-control.goog-inline-block
+          input#group_307620538_2.ss-q-radio(type='radio', name='entry.307620538', value='Remoto', role='radio', aria-label='Remoto')
+        span.ss-choice-label Remoto
+      input#entry_1628092907.ss-q-short(type='url', name='entry.1628092907', value='', dir='auto', aria-label='Website Website de sua empresa Must be a valid URL', title='Must be a valid URL')
+      textarea#entry_1779995784.ss-q-long(name='entry.1779995784', rows='8', cols='0', dir='auto', aria-label='Descrição da vaga ou serviço  ')
+      <textarea name="entry.1852597857" rows="8" cols="0" class="ss-q-long" id="entry_1852597857" dir="auto" aria-label="Skills:  Must be at least 20 characters." aria-required="true" required=""></textarea>
+      input#ss-submit.invite-form__btn.btn.btn--primary(type='submit' name='submit' value='Register Job')
