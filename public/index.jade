@@ -7,13 +7,27 @@
           |  #{ banner.slogan.title }
         p.banner__p
           |  #{ banner.text }
-        a.btn.btn--large.btn--primary(href='#about') #{ banner.btn }
+        if (lang == 'en')
+          posts = Object.keys(public.job._data).length
+        else
+          posts = Object.keys(public[lang].job._data).length
+        if (posts > 1)
+          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
+        else
+          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
 
       .banner__cell.banner__cell--img
         .banner__img
           img(src='#{ site_img }banner-#{ lang }-img.png', alt='')
 
-        a.btn.btn--large.btn--primary(href='#started') #{ banner.btn }
+        if (lang == 'en')
+          posts = Object.keys(public.job._data).length
+        else
+          posts = Object.keys(public[lang].job._data).length
+        if (posts > 1)
+          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
+        else
+          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
 
     .about#about
       .about__head

@@ -52,13 +52,20 @@ html(lang='#{ lang }')
         .head-bot
           ul.head-nav
             li
-              a(href='#{ public[lang]._data.index.site_url }post') Post a Job
+              a(href='#{ public[lang]._data.index.site_url }post') Post Job
+            if (lang == 'en')
+              posts = Object.keys(public.job._data).length
+            else
+              posts = Object.keys(public[lang].job._data).length
+            if (posts > 1)
+              li
+                a(href='#{ public[lang]._data.index.site_url }explore') Explore
             li
-              a(href='index.html#about') #{ public[lang]._data.index.site_nav.about }
+              a(href='#{ public[lang]._data.index.site_url }#about') #{ public[lang]._data.index.site_nav.about }
             li
-              a(href='index.html#team') #{ public[lang]._data.index.site_nav.team }
+              a(href='#{ public[lang]._data.index.site_url }#team') #{ public[lang]._data.index.site_nav.team }
             li
-              a(href='index.html#support') #{ public[lang]._data.index.site_nav.support }
+              a(href='#{ public[lang]._data.index.site_url }#support') #{ public[lang]._data.index.site_nav.support }
             li
               a(href='#{ public[lang]._data.index.site_url }contact') #{ public[lang]._data.index.site_nav.contact }
             li.dropdown

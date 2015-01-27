@@ -3,16 +3,14 @@
     .explore
       header.explore__head
         h1.explore-title
-          | Anúncie Vagas <span class="explore-title__normal">de trabalho</span>
-          br
-          | Pague com <span class="explore-title__normal">Moeda Digital</span>
+          | Anúncie Vagas de trabalho <br><span class="explore-title__normal">Pague com Moeda Digital</span>
       .explore__body
         .explore__cell.explore__cell--main
           ul.jobs
-            for job in public.job._data
+            for job in (lang == 'en' ? public.job._data : public[lang].job._data)
               if (job.slug !== "index")
                 li
-                  a.jobs-item(href='/job/#{ job.slug }' title='')
+                  a.jobs-item(href='#{ public[lang]._data.index.site_url }job/#{ job.slug }' title='')
                     .jobs-item__cell.jobs-item__cell--img
                       img.jobs-item__img(src='/img/company-default.png' alt='')
 
@@ -27,5 +25,18 @@
 
         .explore__cell.explore__cell--aside
           .explore-post
-            a.explore-post__btn.btn.btn--primary.btn--large(href='post' title='Postar Vaga Grátis') Postar Vaga
-            p.explore-post__info Anuncie por 30 dias grátis
+            a.explore-post__btn.btn.btn--primary.btn--large(href='post' title='#{ explorePost.btn }') #{ explorePost.btn }
+            p.explore-post__info #{ explorePost.info }
+
+    .invite
+      .invite__head
+        h2.invite__title #{ invite.title }
+
+      .invite__body
+        p #{ invite.text }
+        form#invite_form.invite-form(action='https://docs.google.com/forms/d/1zYmnXVRPmFieu_JBKJ33R0-3IgGEkeiNWoIB_YpmaUE/formResponse' method='POST' target='_self')
+          input#entry_2101149896.invite-form__input.input(type="email" name="entry.2101149896" value="" placeholder="#{ invite.input.placeholder }" dir="auto" aria-label="Email: #{ invite.input.title }" aria-required="true" required="" title="#{ invite.input.title }")
+          input(type="hidden", name="draftResponse", value="[,,'7057374124153364777']\ ")
+          input(type="hidden", name="pageHistory", value="0")
+          input(type="hidden", name="fbzx", value="7057374124153364777")
+          input#ss-submit.invite-form__btn.btn.btn--secondary(type='submit' name='submit' value='#{ invite.btn }')
