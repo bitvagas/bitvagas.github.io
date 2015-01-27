@@ -110,5 +110,30 @@
         "title": "Política de Privacidad",
         "p1": "Su información de registro previo no será utilizada o reproducida en cualquier forma por nuestro equipo, estos se utilizan únicamente para contactar vía correo electrónico, sobre BitVagas, como la apertura de pre-lanzamiento, noticias, investigación, etc.",
         "p2": "Estas políticas pueden y se actualizarán según el desarrollo de BitVagas para satisfacer las necesidades legales de la plataforma. Cuando se producen estos cambios, se le notificará por correo electrónico de los cambios."
+    },
+    "post":{
+	    "paragraph":"Este é um paragrafo de exemplo",
+        "source": "post",
+        "lang": "es",
+        "facebooklang": "es_LA",
+        "site_url": "/",
+        "site_subtitle":  "Post a Job",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
+    },
+    "explore": {
+        "source": "explore",
+        "lang": "es",
+        "site_subtitle": "Explorar",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "title": "Explorar",
+        "invite": {
+            "title": "Receive News",
+            "text": "Join our pre-launch!",
+            "input": {
+                "placeholder": "Your email",
+                "title": "Must be a valid email address"
+            },
+            "btn": "Subscribe"
+        }
     }
 }

@@ -1,0 +1,18 @@
+{
+    "index": {
+        "slug": "index",
+        "lang": "pt-br",
+        "site_url": "/",
+        "site_subtitle":  "Platform of jobs for Bitcoin users",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
+        "site_nav" : {
+            "about": "About",
+            "team": "Team",
+            "support": "Support",
+            "invite": "Newsletter",
+            "contact": "Contact",
+            "privacy": "Privacy Policy"
+        }
+    }
+}

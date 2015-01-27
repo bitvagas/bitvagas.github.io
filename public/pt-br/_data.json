@@ -21,7 +21,8 @@
                 "title": " para usuários Bitcoin"
             },
             "text": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
-            "btn": "Saiba mais"
+            "btnPost": "Postar Vaga",
+            "btnExplore": "Explorar"
         },
         "about": {
             "title": "Sobre nós",
@@ -110,5 +111,31 @@
         "title": "Política de Privacidade",
         "p1": "Seus dados pré cadastrais não serão utilizados ou reproduzidos de qualquer maneira por nossa equipe, sendo estes utilizados apenas para contato via email, a respeito do BitVagas, tais como abertura do pré-lançamento, newsletter, pesquisa e etc.",
         "p2": "Essas políticas podem e serão atualizadas conforme o desenvolvimento do BitVagas, para atender as necessidades legais da plataforma. Quando essas mudanças ocorrerem, você será avisado via email sobre as mudanças."
+    },
+    "post":{
+	    "paragraph":"Este é um paragrafo de exemplo",
+        "source": "post",
+        "lang": "pt-br",
+        "facebooklang": "pt_BR",
+        "site_url": "/",
+        "site_subtitle":  "Postar Vaga",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
+    },
+    "explore": {
+        "source": "explore",
+        "lang": "pt-br",
+        "facebooklang": "en_US",
+        "site_subtitle": "Explorar",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "title": "Explorar",
+        "invite": {
+            "title": "Receive News",
+            "text": "Join our pre-launch!",
+            "input": {
+                "placeholder": "Your email",
+                "title": "Must be a valid email address"
+            },
+            "btn": "Subscribe"
+        }
     }
 }

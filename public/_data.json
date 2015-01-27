@@ -22,7 +22,8 @@
                 "title": " for Bitcoin users"
             },
             "text": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-            "btn": "Learn more"
+            "btnPost": "Post a Job",
+            "btnExplore": "Explore"
         },
         "about": {
             "title": "About Us",
@@ -78,12 +79,11 @@
         }
     },
     "post":{
-	    "paragraph":"Este é um paragrafo de exemplo",
-        "source": "contact",
+        "source": "post",
         "lang": "en",
         "facebooklang": "en_US",
         "site_url": "/",
-        "site_subtitle":  "Contact",
+        "site_subtitle":  "Post a Job",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
     },
     "contact": {
@@ -125,7 +125,20 @@
         "facebooklang": "en_US",
         "site_subtitle": "Explorar",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "title": "Explorar"
+        "title": "Explorar",
+        "explorePost": {
+            "btn": "Post a Job",
+            "info": "Advertise for 30 days free"
+        },
+        "invite": {
+            "title": "Receive News",
+            "text": "Join our pre-launch!",
+            "input": {
+                "placeholder": "Your email",
+                "title": "Must be a valid email address"
+            },
+            "btn": "Subscribe"
+        }
     }
 }
 
