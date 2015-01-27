@@ -30,8 +30,26 @@ $ bower install
 
 Now you're good to go!
 
+## Usage
+
+HarpJS has three basic options used in this project: 
+
+To regenerate the site as you edit and save files, which can be viewed at `http://localhost:9000`, run:
+
 ```sh
-$ gulp
+$ gulp serve
+```
+
+To generate a static version of the site, that is ready to upload to a server (it will create a folder called `www`), run:
+
+```sh
+$ gulp build
+```
+
+To generate and send the output to `gh-pages` branch, run:
+
+```sh
+$ gulp deploy
 ```
 
 ## Contributing
