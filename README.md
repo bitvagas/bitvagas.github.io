@@ -52,6 +52,10 @@ To generate and send the output to `gh-pages` branch, run:
 $ gulp deploy
 ```
 
+## History
+
+For versions history check [Releases](https://github.com/bitvagas/bitvagas.github.io/releases)
+
 ## Contributing
 
 1. Fork it!
