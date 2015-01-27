@@ -1,0 +1,116 @@
+.post
+  padding: 48px 0 96px
+
+.post__title
+  font-size: 38px
+  line-height: 1.15
+  +media-query(desk)
+    font-size: 41px
+    line-height: 1.5
+
+.post__body
+  +cf
+  margin-bottom: 24px
+  +media-query(desk)
+    margin-left: -48px
+
+.post__cell
+  +media-query(desk)
+    float: left
+    padding-left: 48px
+
+.post__cell--main
+  +media-query(desk)
+    width: 70%
+
+.post__cell--aside
+  +media-query(desk)
+    width: 30%
+
+.post-form
+  font-size: 14px
+  list-style: none
+  margin-left: 0
+  > li
+    margin-bottom: 14px
+    &:last-child
+      margin-bottom: 0
+  +media-query(desk)
+    > li
+      display: table
+      margin-bottom: 24px
+      width: 100%
+      &:last-child
+        margin-bottom: 0
+
+.post-job-type
+  +cf
+  list-style: none
+  margin: 0
+  > li
+    float: left
+    margin-bottom: 6px
+    margin-right: 12px
+
+.post-form__label
+  display: block
+  margin-bottom: 6px
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+    width: 25%
+
+.post-form__input
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+
+.post-form__message
+  font-size: 14px
+  padding-top: 6px
+
+.post-action
+  background: whitesmoke
+  border-top: 1px solid #e5e5e5
+  padding: 14px 24px
+  +media-query(desk)
+    padding-left: 166px
+
+.post-action__btn
+  display: block
+  width: 100%
+  +media-query(desk)
+    display: inline-block
+    width: auto
+
+.post__legend
+  border-bottom: 1px solid #e7e7e7
+  color: lighten(#5f5f5f, 12%)
+  display: block
+  font-size: 16px
+  line-height: 2
+  margin-bottom: 12px
+  padding: 0
+  width: 100%
+  +media-query(desk)
+    margin-bottom: 24px
+
+.post-type-job
+  +cf
+  font-size: 13px
+  list-style: none
+  margin: 0
+  > li
+    float: left
+    margin-bottom: 6px
+    margin-right: 12px
+
+.post-type-job__input
+  display: table-cell
+  vertical-align: middle
+  margin-right: 3px
+
+.post-type-job__label
+  display: table-cell
+  vertical-align: middle
+

@@ -28,15 +28,17 @@
   margin-bottom: 24px
 
 .job-media__img
-  box-shadow: 0 1px 2px rgba(#000, .1)
-  background-color: #FFF
-  border: 1px solid #ddd
-  border-radius: 4px
   display: block
-  padding: 4px
-  display: block
-  float: left
-  margin-right: 24px
+  > img
+    box-shadow: 0 1px 2px rgba(#000, .1)
+    background-color: #FFF
+    border: 1px solid #ddd
+    border-radius: 4px
+    display: block
+    padding: 4px
+    display: block
+    float: left
+    margin-right: 24px
 
 .job-media__body
   overflow: hidden
@@ -45,16 +47,52 @@
 .job__body
   border-top: 1px solid #fff
   padding-top: 24px
+  > h6
+    margin-bottom: 12px
 
 .job-info
   +cf
   list-style: none
   margin-left: 0
   > li
+    +cf
     float: left
     margin-right: 18px
     &:last-child
       margin-right: 0
 
+.job__icon
+  display: inline-block
+  height: 24px
+  vertical-align: middle
+  margin-right: 2px
+  width: 24px
+
+.job__local,
+.job__date
+  display: inline-block
+  vertical-align: middle
+
 .job__company
   font-weight: 400
+
+.job-social
+  list-style: none
+  margin-left: 0
+  margin-bottom: 12px
+  > li
+    border-bottom: none
+    display: inline-block
+    margin-bottom: 12px
+    padding: 0 8px
+    &:first-child
+      padding-left: 0
+    &:last-child
+      padding-right: 0
+    > a,
+    > iframe
+      padding: 0
+  +media-query(lap)
+    margin-bottom: 24px
+    > li
+      margin-bottom: 0

@@ -1,10 +1,18 @@
 .explore
   font-size: 14px
   margin-bottom: 24px
-  padding: 48px 0 96px
+  padding: 48px 0 0
 
 .explore-title
-  line-height: 1.25
+  font-size: 34px
+  line-height: 1.15
+  margin-bottom: 32px
+  text-align: center
+  +media-query(lap)
+    font-size: 42px
+    text-align: left
+  +media-query(desk)
+    font-size: 48px
 
 .explore-title__normal
   font-weight: normal
@@ -24,6 +32,8 @@
     width: 65%
 
 .explore__cell--aside
+  > :last-child
+    margin-bottom: 0
   +media-query(desk)
     width: 35%
 
@@ -32,7 +42,6 @@
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   border-radius: 4px
-
   background: whitesmoke
   border: 1px solid #e5e5e5
   margin-bottom: 24px
