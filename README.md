@@ -34,7 +34,7 @@ Now you're good to go!
 
 HarpJS has three basic options used in this project: 
 
-To regenerate the site as you edit and save files, which can be viewed at `http://localhost:9000`, run:
+To regenerate the site as you edit and save files, which can be viewed at `http://localhost:3000`, run:
 
 ```sh
 $ gulp serve
