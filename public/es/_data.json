@@ -117,8 +117,8 @@
         "source": "post",
         "lang": "es",
         "site_url": "/es/",
-        "site_subtitle":  "Publicar Job",
-        "title": "Publicar Job",
+        "site_subtitle":  "Publicar Puesto",
+        "title": "Publicar Puesto",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "form": {
             "legend_1": "Sobre la Empresa",
@@ -136,7 +136,7 @@
                 "label": "Logo"
             },
             "title": {
-                "label": "Título profesional"
+                "label": "Título de trabajo"
             },
             "location": {
                 "label": "Localización"
@@ -159,20 +159,20 @@
         "lang": "es",
         "site_url": "/es/",
         "site_subtitle": "Explorar",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "description": "Explorar el universo Bitcoin y ayudar a estimular la economía descentralizada. Contrata utilizando monedas digitales",
         "title": "Explorar",
         "explorePost": {
-            "btn": "Post a Job",
+            "btn": "Publicar Puesto",
             "info": "Advertise for 30 days free"
         },
         "invite": {
-            "title": "Receive News",
-            "text": "Join our pre-launch!",
+            "title": "Recibir noticias",
+            "text": "Únete a nuestro pre-lanzamiento",
             "input": {
                 "placeholder": "Your email",
-                "title": "Must be a valid email address"
+                "title": "Debe ser una dirección válida correo electrónico"
             },
-            "btn": "Subscribe"
+            "btn": "Suscribirse"
         }
     }
 }
