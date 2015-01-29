@@ -124,28 +124,39 @@
             "legend_1": "Sobre a Empresa",
             "legend_2": "Sobre a Vaga",
             "name": {
-                "label": "Nome da empresa"
+                "label": "Nome da empresa",
+                "title": "Precisa conter"
             },
             "email": {
-                "label": "Email para contato"
+                "label": "Email para contato",
+                "title": "Precisa conter um endereço de email válido",
+                "placeholder": "Somente para uso interno, não será exibido em qualquer lugar no site"
             },
             "url": {
-                "label": "Site da empresa"
+                "label": "Site da empresa",
+                "title": "Precisa conter uma URL válida"
             },
             "logo": {
-                "label": "Logo"
+                "label": "Logo",
+                "title": "Precisa conter uma URL válida",
+                "help_1": "Use o",
+                "help_2": "e envie o link com o logo em 100x100"
             },
             "title": {
-                "label": "Título da vaga"
+                "label": "Título da vaga",
+                "title": "Precisa conter"
             },
             "location": {
-                "label": "Local"
+                "label": "Local",
+                "title": "Precisa conter",
+                "placeholder": "Exemplo: 'Rio de Janeiro, RJ', 'São Paulo, SP', 'Em qualquer lugar'"
             },
             "type": {
                 "label": "Tipo da vaga"
             },
             "description": {
-                "label": "Descrição"
+                "label": "Descrição",
+                "title": "Precisa conter pelo menos 100 caracteres"
             },
             "terms": {
                 "label": "Concordo com a ",

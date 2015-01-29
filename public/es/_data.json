@@ -124,28 +124,39 @@
             "legend_1": "Sobre la Empresa",
             "legend_2": "Sobre el trabajo",
             "name": {
-                "label": "Nombre de empresa"
+                "label": "Nombre de empresa",
+                "title": "Debe contener"
             },
             "email": {
-                "label": "Email de contacto"
+                "label": "Email de contacto",
+                "title": "Must be a valid email address",
+                "placeholder": "Sólo para uso interno, no se mostrará en cualquier lugar en el sitio"
             },
             "url": {
-                "label": "URL del sitio"
+                "label": "URL del sitio",
+                "title": "Debe ser una URL válida"
             },
             "logo": {
-                "label": "Logo"
+                "label": "Logo",
+                "title": "Debe ser una URL válida",
+                "help_1": "Utilice la",
+                "help_2": "y enviar el link con el logotipo en 100x100"
             },
             "title": {
-                "label": "Título de trabajo"
+                "label": "Título de trabajo",
+                "title": "Debe contener"
             },
             "location": {
-                "label": "Localización"
+                "label": "Localización",
+                "title": "Debe contener",
+                "placeholder": "Example: 'Buenos Aires', 'Montevideo', 'En cualquier lugar'"
             },
             "type": {
                 "label": "Tipo de trabajo"
             },
             "description": {
-                "label": "Descripción"
+                "label": "Descripción",
+                "title": "Deve tener al menos 100 caracteres"
             },
             "terms": {
                 "label": "Acepto la",
