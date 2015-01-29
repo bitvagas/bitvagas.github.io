@@ -11,7 +11,7 @@
             "about": "Acerca",
             "team": "Equipo",
             "support": "Apoyo",
-            "post": "Publicar Job",
+            "post": "Publicar Puesto",
             "explore": "Explorar",
             "contact": "Contacto",
             "privacy": "Política de Privacidad"
@@ -22,7 +22,7 @@
                 "title": " para los usuarios de Bitcoin"
             },
             "text": "Explore el universo Bitcoin y ayude a estimular la economía descentralizada. Contrate utilizando monedas digitales.",
-            "btnPost": "Publicar Job",
+            "btnPost": "Publicar Puesto",
             "btnExplore": "Explorar"
         },
         "about": {
