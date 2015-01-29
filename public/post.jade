@@ -9,29 +9,29 @@
           ul.post-form
             li.post-form-item__language
               label.post-form__label Language:
-              input.input.input--full.post-form__input(type='text', name='entry_735944823', value='[#{ lang.toUpperCase() }]', dir='auto', aria-label='Language: [EN], [ES] or [PT_BR] Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter ')
+              input.input.input--full.post-form__input(type='text', name='entry_735944823', value='[#{ lang.toUpperCase() }]', dir='auto', aria-required='true', required='', pattern='.*.*')
             li
               label.post-form__label #{ form.name.label }:
-              input.input.input--full.post-form__input(type='text', name='entry.1610199550', value='', dir='auto', aria-label='Company: Para qual empresa a vaga ou serviço esta sendo cadastrado? ', aria-required='true', required='', title='')
+              input.input.input--full.post-form__input(type='text', name='entry.1610199550', value='', dir='auto', aria-label='#{ form.name.label }: #{ form.name.title }', aria-required='true', required='', pattern='.*.*', title='#{ form.name.title }')
             li
               label.post-form__label #{ form.email.label }:
-              input.input.input--full.post-form__input(type='email', name='entry.1704719888', value='', dir='auto', aria-label='Email:  Precisa ser um endereço de e-mail válido', aria-required='true', required='', title='Precisa ser um endereço de e-mail válido', placeholder='For internal use only, will not display anywhere on the site.')
+              input.input.input--full.post-form__input(type='email', name='entry.1704719888', value='', dir='auto', aria-label='#{ form.email.label }: #{ form.email.title }', aria-required='true', required='', title='#{ form.email.title }', placeholder='#{ form.email.placeholder }')
             li
               label.post-form__label #{ form.url.label }:
-              input.input.input--full.post-form__input(type='url', name='entry.1497125477', value='', dir='auto', aria-label='Website: Website de sua empresa Precisa ser um URL válido', title='Precisa ser um URL válido')
+              input.input.input--full.post-form__input(type='url', name='entry.1497125477', value='', dir='auto', aria-label='#{ form.url.label }: #{ form.url.title }', title='#{ form.url.title }')
             li
               label.post-form__label #{ form.logo.label }:
-              input.input.input--full.post-form__input(type='url', name='entry.1676493432', value='', dir='auto', aria-label='Logo: Use http://imgur.com/ 100x100 Precisa ser um URL válido', title='Precisa ser um URL válido')
-              .post-form__help Use o <a href="http://imgur.com/">imgur</a> e nos envie o link com o logo em 100x100px
+              input.input.input--full.post-form__input(type='url', name='entry.1676493432', value='', dir='auto', aria-label='#{ form.logo.label }: #{ form.logo.title }', title='#{ form.logo.title }')
+              .post-form__help #{ form.logo.help_1 } <a href="http://imgur.com/">imgur</a> #{ form.logo.help_2 }
 
           h4.post__legend #{ form.legend_2 }
           ul.post-form
             li
               label.post-form__label #{ form.title.label }:
-              input.input.input--full.post-form__input(type='text', name='entry.1283458641', value='', dir='auto', aria-label='Title: Qual vaga ou serviço esta sendo cadastrada? ', aria-required='true', required='', title='')
+              input.input.input--full.post-form__input(type='text', name='entry.1283458641', value='', dir='auto', aria-label='#{ form.title.label }: #{ form.title.title }', aria-required='true', required='', pattern='.*.*', title='#{ form.title.title }')
             li
               label.post-form__label #{ form.location.label }:
-              input.input.input--full.post-form__input(type='text', name='entry.1344887347', value='', dir='auto', aria-label='Location:  Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter', placeholder="Example: 'New York, NY', 'London', 'Anywhere'")
+              input.input.input--full.post-form__input(type='text', name='entry.1344887347', value='', dir='auto', aria-label='#{ form.location.label }: #{ form.location.title }', aria-required='true', required='', pattern='.*.*', title='#{ form.location.title }', placeholder="#{ form.location.placeholder }")
             li
               label.post-form__label #{ form.type.label }:
               .post-form__input
@@ -50,7 +50,7 @@
                     label.post-type-job__label.label.label--temporary(for='group_1140736966_4') Temporary
             li
               label.post-form__label #{ form.description.label }:
-              textarea#entry_670866872.textarea.textarea--full(name='entry.670866872', rows='8', cols='0', dir='auto', aria-label='Description:  Precisa ter pelo menos 100 caracteres.', aria-required='true', required='')
+              textarea#entry_670866872.textarea.textarea--full(name='entry.670866872', rows='8', cols='0', dir='auto', aria-label='#{ form.description.label }: #{ form.description.title }', aria-required='true', required='#{ form.description.title }')
             li
               .post-form__label &nbsp;
               label.post-form__input
