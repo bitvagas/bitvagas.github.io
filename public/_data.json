@@ -90,28 +90,39 @@
             "legend_1": "About Company",
             "legend_2": "About Job",
             "name": {
-                "label": "Company Name"
+                "label": "Company Name",
+                "title": "Must contain"
             },
             "email": {
-                "label": "Contact Email"
+                "label": "Contact Email",
+                "title": "Must be a valid email address",
+                "placeholder": "For internal use only, will not display anywhere on the site"
             },
             "url": {
-                "label": "Site URL"
+                "label": "Site URL",
+                "title": "Must be a valid URL"
             },
             "logo": {
-                "label": "Logo"
+                "label": "Logo",
+                "title": "Must be a valid URL",
+                "help_1": "Use the",
+                "help_2": "and send the link with the logo in 100x100"
             },
             "title": {
-                "label": "Job Title"
+                "label": "Job Title",
+                "title": "Must contain"
             },
             "location": {
-                "label": "Location"
+                "label": "Location",
+                "title": "Must contain",
+                "placeholder": "Example: 'New York, NY', 'London', 'Anywhere'"
             },
             "type": {
                 "label": "Job Type"
             },
             "description": {
-                "label": "Description"
+                "label": "Description",
+                "title": "Must be at least 100 characters"
             },
             "terms": {
                 "label": "I agree with the",
@@ -147,7 +158,7 @@
     "privacy": {
         "source": "privacy",
         "lang": "en",
-        "facebooklang": "en_US",
+        "site_url": "/",
         "site_subtitle": "Privacy Policy",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Privacy Policy",
@@ -157,7 +168,7 @@
     "explore": {
         "source": "explore",
         "lang": "en",
-        "facebooklang": "en_US",
+        "site_url": "/",
         "site_subtitle": "Explorar",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Explorar",
