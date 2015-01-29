@@ -2,60 +2,61 @@
   .wrapper
     .post
       header.post__head
-        h1.post__title Postar Vaga
+        h1.post__title #{ title }
       .post__body
         form(action='https://docs.google.com/forms/d/1wwm3xOblK3ZSIpalrgxHm_s44iPVjxnm3kNUdIUoRIQ/formResponse' method='POST' target='_self').post__cell.post__cell--main
-          h4.post__legend About Company
+          h4.post__legend #{ form.legend_1 }
           ul.post-form
-            li
+            li.post-form-item__language
               label.post-form__label Language:
               input.input.input--full.post-form__input(type='text', name='entry_735944823', value='[#{ lang.toUpperCase() }]', dir='auto', aria-label='Language: [EN], [ES] or [PT_BR] Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter ')
             li
-              label.post-form__label Company Name:
+              label.post-form__label #{ form.name.label }:
               input.input.input--full.post-form__input(type='text', name='entry.1610199550', value='', dir='auto', aria-label='Company: Para qual empresa a vaga ou serviço esta sendo cadastrado? ', aria-required='true', required='', title='')
             li
-              label.post-form__label Contact Email:
+              label.post-form__label #{ form.email.label }:
               input.input.input--full.post-form__input(type='email', name='entry.1704719888', value='', dir='auto', aria-label='Email:  Precisa ser um endereço de e-mail válido', aria-required='true', required='', title='Precisa ser um endereço de e-mail válido', placeholder='For internal use only, will not display anywhere on the site.')
             li
-              label.post-form__label URL:
+              label.post-form__label #{ form.url.label }:
               input.input.input--full.post-form__input(type='url', name='entry.1497125477', value='', dir='auto', aria-label='Website: Website de sua empresa Precisa ser um URL válido', title='Precisa ser um URL válido')
             li
-              label.post-form__label Logo:
+              label.post-form__label #{ form.logo.label }:
               input.input.input--full.post-form__input(type='url', name='entry.1676493432', value='', dir='auto', aria-label='Logo: Use http://imgur.com/ 100x100 Precisa ser um URL válido', title='Precisa ser um URL válido')
+              .post-form__help Use o <a href="http://imgur.com/">imgur</a> e nos envie o link com o logo em 100x100px
 
-          h4.post__legend About Job
+          h4.post__legend #{ form.legend_2 }
           ul.post-form
             li
-              label.post-form__label Job Title:
+              label.post-form__label #{ form.title.label }:
               input.input.input--full.post-form__input(type='text', name='entry.1283458641', value='', dir='auto', aria-label='Title: Qual vaga ou serviço esta sendo cadastrada? ', aria-required='true', required='', title='')
             li
-              label.post-form__label Location:
+              label.post-form__label #{ form.location.label }:
               input.input.input--full.post-form__input(type='text', name='entry.1344887347', value='', dir='auto', aria-label='Location:  Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter', placeholder="Example: 'New York, NY', 'London', 'Anywhere'")
             li
-              label.post-form__label Job Type:
+              label.post-form__label #{ form.type.label }:
               .post-form__input
-                ul.post-type-job
+                ul.post-type-job(role='radiogroup', aria-label='Job Type:  ')
                   li
-                    input.post-type-job__input(type='radio', name='entry.1140736966', id='full-time' value='Full-time', role='radio', aria-label='Full-time', required='', aria-required='true')
-                    label.post-type-job__label.label.label--full-time(for='full-time') Full-time
+                    input#group_1140736966_1.post-type-job__input(type='radio', name='entry.1140736966', value='Full-Time', role='radio', aria-label='Full-Time', required='', aria-required='true')
+                    label.post-type-job__label.label.label--full-time(for='group_1140736966_1') Full-time
                   li
-                    input.post-type-job__input(type='radio', name='entry.1140736966', id='part-time' value='Part-time', role='radio', aria-label='Part-time', required='', aria-required='true')
-                    label.post-type-job__label.label.label--part-time(for='part-time') Part-time
+                    input#group_1140736966_2.post-type-job__input(type='radio', name='entry.1140736966', value='Part-Time', role='radio', aria-label='Part-Time', required='', aria-required='true')
+                    label.post-type-job__label.label.label--part-time(for='group_1140736966_2') Part-time
                   li
-                    input.post-type-job__input(type='radio', name='entry.1140736966', id='freelance' value='Freelance', role='radio', aria-label='Freelance', required='', aria-required='true')
-                    label.post-type-job__label.label.label--freelance(for='freelance') Freelance
+                    input#group_1140736966_3.post-type-job__input(type='radio', name='entry.1140736966', value='Freelance', role='radio', aria-label='Freelance', required='', aria-required='true')
+                    label.post-type-job__label.label.label--freelance(for='group_1140736966_3') Freelance
                   li
-                    input.post-type-job__input(type='radio', name='entry.1140736966', id= 'temporary' value='Temporary', role='radio', aria-label='Temporary', required='', aria-required='true')
-                    label.post-type-job__label.label.label--temporary(for='temporary') Temporary
+                    input#group_1140736966_4.post-type-job__input(type='radio', name='entry.1140736966', value='Temporary', role='radio', aria-label='Temporary', required='', aria-required='true')
+                    label.post-type-job__label.label.label--temporary(for='group_1140736966_4') Temporary
             li
-              label.post-form__label Description:
-              textarea.textarea.textarea--full#entry_1779995784.ss-q-long(name='entry.670866872', rows='8', cols='0', dir='auto', aria-label='Description:  ')
+              label.post-form__label #{ form.description.label }:
+              textarea#entry_670866872.textarea.textarea--full(name='entry.670866872', rows='8', cols='0', dir='auto', aria-label='Description:  Precisa ter pelo menos 100 caracteres.', aria-required='true', required='')
             li
-              label.post-form__label &nbsp;
-              .post-form__input
-                input#group_999646831_1.ss-q-checkbox(type='checkbox', name='entry.999646831', value='I agree with the Privacy Policy.', role='checkbox', aria-required='true')
-                |  I agree with the <a href="#{ public[lang]._data.index.site_url }privacy">Privacy Policy</a>.
+              .post-form__label &nbsp;
+              label.post-form__input
+                input#group_999646831_1.ss-q-checkbox(type='checkbox', name='entry.999646831', value='I agree with the Privacy Policy.', role='checkbox', required='', aria-required='true')
+                |  #{ form.terms.label } <a href="#{ public[lang]._data.index.site_url }privacy">#{ form.terms.link }</a>.
           .post-action
-            input#ss-submit.post-action__btn.btn.btn--primary.btn--medium(type='submit', name='submit', value='Postar')
+              input#ss-submit.post-action__btn.btn.btn--primary.btn--medium(type='submit', name='submit', value='#{ form.btn }')
 
         .post__cell.post__cell--aside

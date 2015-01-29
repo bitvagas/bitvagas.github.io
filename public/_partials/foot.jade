@@ -22,13 +22,14 @@ footer.foot
           |  <iframe src="http://platform.twitter.com/widgets/tweet_button.1359159993.html#_=1360010161235&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=pt-BR&amp;size=m&amp;url=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }&amp;text=BitVagas - #{ public[lang]._data.index.tweet }" class="twitter-share-button twitter-count-horizontal" data-twttr-rendered="true" allowtransparency="true" frameborder="0" scrolling="no" width="82" height="20"></iframe>
         li
           |  <iframe src="//www.facebook.com/plugins/like.php?href=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;colorscheme=light&amp;action=like&amp;height=20" allowtransparency="true" frameborder="0" scrolling="no" width="78" height="20"></iframe>
-        li
-          |  <iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;hl=en-US&amp;url=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }&amp;parent=http://bitvagas.com" allowtransparency="true" frameborder="0" scrolling="no" width="58" height="20"></iframe>
+        li(style='width: 74px;')
+          | <div class="g-plusone" data-size="medium" data-href="http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }" data-href="http://bitvagas.com/"></div>
         li
           |  <iframe src="http://ghbtns.com/github-btn.html?user=bitvagas&amp;repo=bitvagas.github.io&amp;type=watch&amp;count=true&amp;size=small" allowtransparency="true" frameborder="0" scrolling="0" width="85" height="20"></iframe>
 
       .foot-copy
         &copy; 2015 BitVagas
 
+script(src="https://apis.google.com/js/platform.js" async defer)
 script(src='/components/jquery/dist/jquery.min.js')
 script(src='#{ site_js }main.js')

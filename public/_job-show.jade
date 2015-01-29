@@ -6,7 +6,7 @@
       .job__cell.job__cell--main
         header.job__head
           .job-media
-            a(href='').job-media__img
+            a(href='http://bitvagas.com/' target='_blank').job-media__img
               img(src='#{ site_img }bitvagas100x100.png')
             .job-media__body
               h1.job__title  #{ title } <span class="job__company">na <a href="http://bitvagas.com/" target="_blank">#{ company }</a></span>
@@ -25,14 +25,43 @@
             li
               |  <iframe src="http://platform.twitter.com/widgets/tweet_button.1359159993.html#_=1360010161235&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=pt-BR&amp;size=m&amp;url=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }&amp;text=BitVagas - #{ tweet }" class="twitter-share-button twitter-count-horizontal" data-twttr-rendered="true" allowtransparency="true" frameborder="0" scrolling="no" width="82" height="20"></iframe>
             li
-              |  <iframe src="//www.facebook.com/plugins/like.php?href=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;colorscheme=light&amp;action=like&amp;height=20" allowtransparency="true" frameborder="0" scrolling="no" width="78" height="20"></iframe>
-            li
-              |  <iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;hl=en-US&amp;url=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }&amp;parent=http://bitvagas.com" allowtransparency="true" frameborder="0" scrolling="no" width="58" height="20"></iframe>
+              |  <iframe src="//www.facebook.com/plugins/like.php?href=http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;colorscheme=light&amp;action=like&amp;height=20" allowtransparency="true" frameborder="0" scrolling="no" width="82" height="20"></iframe>
+            li(style='width: 74px;')
+              | <div class="g-plusone" data-size="medium" data-href="http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }" data-href="http://bitvagas.com/"></div>
+
           h6 Descrição do trabalho:
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           h6 Habilidades:
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         footer.job-foot
           a.btn.btn--medium.btn--primary(href='') Candidatar-se à vaga
+
+          form.job-form
+            .job-form__head
+              h5.job-form__title Apply to #{ title } at #{ company }
+            .job-form__body
+              ul.job-form__list
+                li
+                  label.job-form__label Email:
+                  .job-form__field
+                    input(placeholder='Email').job-form__input.input.input--full
+                li
+                  label.job-form__label Name:
+                  .job-form__field.job-form__field--name
+                    .job-form__cell
+                      input(placeholder='First Name').job-form__input.input.input--full
+                    .job-form__cell
+                      input(placeholder='Last Name').job-form__input.input.input--full
+                li
+                  label.job-form__label Reference Links:
+                  .job-form__field
+                    textarea(placeholder='Linkedin, myportfolio.com...' rows="1").job-form__input.textarea.textarea--full
+                li
+                  label.job-form__label Cover Letter:
+                  .job-form__field
+                    textarea(rows="5").job-form__input.textarea.textarea--full
+
+            .job-action
+              input#ss-submit.job-action__btn.btn.btn--primary.btn--medium(type="submit" name="submit" value="Submit")
 
 != partial("_partials/foot")

@@ -11,10 +11,12 @@
           posts = Object.keys(public.job._data).length
         else
           posts = Object.keys(public[lang].job._data).length
-        if (posts > 1)
-          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
-        else
-          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
+        ul.banner__btns
+          li
+            a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
+          if (posts > 1)
+            li
+              a.btn.btn--large.btn--secondary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
 
       .banner__cell.banner__cell--img
         .banner__img
@@ -24,10 +26,12 @@
           posts = Object.keys(public.job._data).length
         else
           posts = Object.keys(public[lang].job._data).length
-        if (posts > 1)
-          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
-        else
-          a.btn.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
+        ul.banner__btns
+          li
+            a.btn.btn--full.btn--large.btn--primary(href='#{ public[lang]._data.index.site_url }post') #{ banner.btnPost }
+          if (posts > 1)
+            li
+              a.btn.btn--full.btn--large.btn--secondary(href='#{ public[lang]._data.index.site_url }explore') #{ banner.btnExplore }
 
     .about#about
       .about__head
