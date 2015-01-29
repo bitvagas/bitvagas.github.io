@@ -2,34 +2,9 @@
     "index": {
         "slug": "index",
         "lang": "es",
-        "site_url": "/",
+        "site_url": "/es/",
         "site_subtitle":  "Platform of jobs for Bitcoin users",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup",
-        "site_nav" : {
-            "about": "About",
-            "team": "Team",
-            "support": "Support",
-            "invite": "Newsletter",
-            "contact": "Contact",
-            "privacy": "Privacy Policy"
-        }
-    },
-    "job-model": {
-        "slug": "job-model",
-        "lang": "es",
-        "facebooklang": "en_US",
-        "site_subtitle": "Web Designer na Blockchain",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
-        "tags": "",
-        "img": "",
-        "title": "Web Designer Senior",
-        "company": "BitVagas",
-        "job_type": "Freelance",
-        "local": "",
-        "website": "https://blockchain.info/",
-        "date": "10 Dez",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "skills": ""
+        "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup"
     }
 }

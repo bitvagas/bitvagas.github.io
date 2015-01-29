@@ -11,7 +11,8 @@
             "about": "Acerca",
             "team": "Equipo",
             "support": "Apoyo",
-            "invite": "Newsletter",
+            "post": "Publicar Job",
+            "explore": "Explorar",
             "contact": "Contacto",
             "privacy": "Política de Privacidad"
         },
@@ -21,7 +22,8 @@
                 "title": " para los usuarios de Bitcoin"
             },
             "text": "Explore el universo Bitcoin y ayude a estimular la economía descentralizada. Contrate utilizando monedas digitales.",
-            "btn": "Conocer más"
+            "btnPost": "Publicar Job",
+            "btnExplore": "Explorar"
         },
         "about": {
             "title": "Sobre Nosotros",
@@ -112,20 +114,57 @@
         "p2": "Estas políticas pueden y se actualizarán según el desarrollo de BitVagas para satisfacer las necesidades legales de la plataforma. Cuando se producen estos cambios, se le notificará por correo electrónico de los cambios."
     },
     "post":{
-	    "paragraph":"Este é um paragrafo de exemplo",
         "source": "post",
         "lang": "es",
-        "facebooklang": "es_LA",
-        "site_url": "/",
-        "site_subtitle":  "Post a Job",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
+        "site_url": "/es/",
+        "site_subtitle":  "Publicar Job",
+        "title": "Publicar Job",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "form": {
+            "legend_1": "Sobre la Empresa",
+            "legend_2": "Sobre el trabajo",
+            "name": {
+                "label": "Nombre de empresa"
+            },
+            "email": {
+                "label": "Email de contacto"
+            },
+            "url": {
+                "label": "URL del sitio"
+            },
+            "logo": {
+                "label": "Logo"
+            },
+            "title": {
+                "label": "Título profesional"
+            },
+            "location": {
+                "label": "Localización"
+            },
+            "type": {
+                "label": "Tipo de trabajo"
+            },
+            "description": {
+                "label": "Descripción"
+            },
+            "terms": {
+                "label": "Acepto la",
+                "link": "Política de Privacidad"
+            },
+            "btn": "Enviar"
+        }
     },
     "explore": {
         "source": "explore",
         "lang": "es",
+        "site_url": "/es/",
         "site_subtitle": "Explorar",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Explorar",
+        "explorePost": {
+            "btn": "Post a Job",
+            "info": "Advertise for 30 days free"
+        },
         "invite": {
             "title": "Receive News",
             "text": "Join our pre-launch!",

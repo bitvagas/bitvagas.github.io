@@ -11,7 +11,8 @@
             "about": "Sobre",
             "team": "Equipe",
             "support": "Apoiar",
-            "invite": "Newsletter",
+            "post": "Postar Vaga",
+            "explore": "Explorar",
             "contact": "Contato",
             "privacy": "Política de Privacidade"
         },
@@ -113,20 +114,52 @@
         "p2": "Essas políticas podem e serão atualizadas conforme o desenvolvimento do BitVagas, para atender as necessidades legais da plataforma. Quando essas mudanças ocorrerem, você será avisado via email sobre as mudanças."
     },
     "post":{
-	    "paragraph":"Este é um paragrafo de exemplo",
         "source": "post",
         "lang": "pt-br",
-        "facebooklang": "pt_BR",
-        "site_url": "/",
+        "site_url": "/pt-br/",
         "site_subtitle":  "Postar Vaga",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
+        "title": "Postar Vaga",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "form": {
+            "legend_1": "Sobre a Empresa",
+            "legend_2": "Sobre a Vaga",
+            "name": {
+                "label": "Nome da empresa"
+            },
+            "email": {
+                "label": "Email para contato"
+            },
+            "url": {
+                "label": "Site da empresa"
+            },
+            "logo": {
+                "label": "Logo"
+            },
+            "title": {
+                "label": "Título da vaga"
+            },
+            "location": {
+                "label": "Local"
+            },
+            "type": {
+                "label": "Tipo da vaga"
+            },
+            "description": {
+                "label": "Descrição"
+            },
+            "terms": {
+                "label": "Concordo com a ",
+                "link": "Política de Privacidade"
+            },
+            "btn": "Enviar"
+        }
     },
     "explore": {
         "source": "explore",
         "lang": "pt-br",
         "facebooklang": "en_US",
         "site_subtitle": "Explorar",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
         "title": "Explorar",
         "invite": {
             "title": "Receive News",

@@ -12,7 +12,8 @@
             "about": "About",
             "team": "Team",
             "support": "Support",
-            "invite": "Newsletter",
+            "post": "Post Job",
+            "explore": "Explore",
             "contact": "Contact",
             "privacy": "Privacy Policy"
         },
@@ -81,15 +82,49 @@
     "post":{
         "source": "post",
         "lang": "en",
-        "facebooklang": "en_US",
         "site_url": "/",
         "site_subtitle":  "Post a Job",
-        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins."
+        "title": "Post a Job",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
+        "form": {
+            "legend_1": "About Company",
+            "legend_2": "About Job",
+            "name": {
+                "label": "Company Name"
+            },
+            "email": {
+                "label": "Contact Email"
+            },
+            "url": {
+                "label": "Site URL"
+            },
+            "logo": {
+                "label": "Logo"
+            },
+            "title": {
+                "label": "Job Title"
+            },
+            "location": {
+                "label": "Location"
+            },
+            "type": {
+                "label": "Job Type"
+            },
+            "description": {
+                "label": "Description"
+            },
+            "terms": {
+                "label": "I agree with the",
+                "link": "Privacy Policy"
+            },
+            "btn": "Submit"
+        }
     },
     "contact": {
         "source": "contact",
         "lang": "en",
         "facebooklang": "en_US",
+        "site_url": "/",
         "site_subtitle":  "Contact",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Contact",
