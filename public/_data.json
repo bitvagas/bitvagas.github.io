@@ -108,6 +108,10 @@
                 "help_1": "Use the",
                 "help_2": "and send the link with the logo in 100x100"
             },
+            "company_description": {
+                "label": "Company Description",
+                "title": "Must be at least 100 characters"
+            },
             "title": {
                 "label": "Job Title",
                 "title": "Must contain"
@@ -121,7 +125,7 @@
                 "label": "Job Type"
             },
             "description": {
-                "label": "Description",
+                "label": "Job Description",
                 "title": "Must be at least 100 characters"
             },
             "terms": {

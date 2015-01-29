@@ -142,6 +142,10 @@
                 "help_1": "Use o",
                 "help_2": "e envie o link com o logo em 100x100"
             },
+            "company_description": {
+                "label": "Descrição da empresa",
+                "title": "Must be at least 100 characters"
+            },
             "title": {
                 "label": "Título da vaga",
                 "title": "Precisa conter"
@@ -155,7 +159,7 @@
                 "label": "Tipo da vaga"
             },
             "description": {
-                "label": "Descrição",
+                "label": "Descrição da vaga",
                 "title": "Precisa conter pelo menos 100 caracteres"
             },
             "terms": {
