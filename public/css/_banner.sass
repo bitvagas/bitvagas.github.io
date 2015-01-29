@@ -11,26 +11,21 @@
 .banner__cell--body
   text-align: center
   width: 100%
-
-  .btn
+  .banner__btns
     display: none
-
   +media-query(desk)
     text-align: left
     padding-top: 48px
     width: 60%
-
-    .btn
+    .banner__btns
       display: inline-block
 
 .banner__cell--img
   text-align: center
   width: 100%
-
   +media-query(desk)
     width: 40%
-
-    .btn
+    .banner__btns
       display: none
 
 .banner__title
@@ -53,3 +48,18 @@
     max-width: 100%
   +media-query(desk)
     margin-bottom: 0
+
+.banner__btns
+  list-style: none
+  margin: 0
+  > li
+    margin-bottom: 12px
+    > .btn
+      display: block
+      width: 100%
+    &:last-child
+      margin-bottom: 0
+  +media-query(lap)
+    > li
+      display: inline-block
+      margin-right: 12px

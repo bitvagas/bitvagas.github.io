@@ -96,3 +96,68 @@
     margin-bottom: 24px
     > li
       margin-bottom: 0
+
+.job-form
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 4px
+  background: whitesmoke
+  border: 1px solid #e5e5e5
+  margin-top: 24px
+  padding: 24px
+
+.job-form__list
+  list-style: none
+  margin-left: 0
+  > li
+    margin-bottom: 14px
+    &:last-child
+      margin-bottom: 0
+  +media-query(desk)
+    > li
+      display: table
+      margin-bottom: 24px
+      width: 100%
+      &:last-child
+        margin-bottom: 0
+
+.job-form__label
+  display: block
+  margin-bottom: 6px
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+    width: 25%
+
+.job-form__field
+  +media-query(desk)
+    display: table-cell
+    vertical-align: top
+
+.job-form__field--name
+  +cf
+  margin-left: -24px
+  .job-form__cell
+    float: left
+    padding-left: 24px
+    width: 50%
+  +media-query(desk)
+    margin-left: 0
+    .job-form__cell
+      &:first-child
+        padding-left: 0
+
+.job-action
+  background: lighten(whitesmoke, 1%)
+  border-top: 1px solid #e5e5e5
+  padding: 14px 24px
+  +media-query(desk)
+    padding-left: 155px
+
+.job-action__btn
+  display: block
+  width: 100%
+  +media-query(desk)
+    display: inline-block
+    width: auto
