@@ -7,4 +7,14 @@ $(document).ready(function() {
 
         e.preventDefault();
     });
+
+    $('#btn-apply').on('click', function(e) {
+        var that = $(this),
+            form = $('#form-apply');
+
+        that.hide();
+        form.show();
+
+        e.preventDefault();
+    });
 });

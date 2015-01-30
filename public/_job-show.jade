@@ -30,12 +30,15 @@
             li(style='width: 74px;')
               | <div class="g-plusone" data-size="medium" data-href="http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }" data-href="http://bitvagas.com/"></div>
 
-          h6 Descrição do trabalho:
+          h5 Descrição do trabalho:
           p #{ job_description }
 
-          form(action="https://docs.google.com/forms/d/1AIBX-zjbQ_edm4ZdCqqrUixKj7Cpvb2tjwFSTWpzSpw/formResponse" method="POST" id="ss-form" target="_self").job-form
+        footer.job-foot
+          a#btn-apply.btn.btn--medium.btn--primary(href='#') Candidatar-se à vaga
+
+          form#form-apply.job-form(action="https://docs.google.com/forms/d/1AIBX-zjbQ_edm4ZdCqqrUixKj7Cpvb2tjwFSTWpzSpw/formResponse" method="POST" target="_self")
             .job-form__head
-              h5.job-form__title Aplicar para #{ title } na #{ company }
+              h6.job-form__title Aplicar para #{ title } na #{ company }
             .job-form__body
               ul.job-form__list
                 li
