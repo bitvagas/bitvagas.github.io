@@ -172,18 +172,22 @@
     "explore": {
         "source": "explore",
         "lang": "pt-br",
-        "facebooklang": "en_US",
+        "site_url": "/pt-br/",
         "site_subtitle": "Explorar",
-        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "title": "Explorar",
+        "explorePost": {
+            "btn": "Postar Vaga",
+            "info": "Anuncie Grátis"
+        },
         "invite": {
-            "title": "Receive News",
-            "text": "Join our pre-launch!",
+            "title": "Receba novidades",
+            "text": "Faça parte do nosso pré-lançamento!",
             "input": {
-                "placeholder": "Your email",
-                "title": "Must be a valid email address"
+                "placeholder": "Seu email",
+                "title": "Precisa ser um endereço de e-mail válido"
             },
-            "btn": "Subscribe"
+            "btn": "Assinar"
         }
     }
 }

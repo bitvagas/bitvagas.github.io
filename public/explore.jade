@@ -16,12 +16,12 @@
 
                     .jobs-item__cell.jobs-item__cell--body
                       h2.jobs-item__title= job.title
-                      h3.jobs-item__company Blockchain (London)
+                      h3.jobs-item__company #{ job.company } (#{ job.local })
 
                     .jobs-item__cell.jobs-item__cell--meta
                       .jobs-item__type
                         |  <div class="label label--#{ (job.job_type).toLowerCase() }">#{ (job.job_type) }</div>
-                      .jobs-item__date 01 Nov
+                      .jobs-item__date #{ job.timestamp }
 
         .explore__cell.explore__cell--aside
           .explore-post

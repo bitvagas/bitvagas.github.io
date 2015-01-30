@@ -6,10 +6,11 @@
       .job__cell.job__cell--main
         header.job__head
           .job-media
-            a(href='http://bitvagas.com/' target='_blank').job-media__img
-              img(src='#{ site_img }bitvagas100x100.png')
+            if (img !== "")
+              a(href='http://bitvagas.com/' target='_blank').job-media__img
+                img(src='#{ site_img }bitvagas100x100.png')
             .job-media__body
-              h1.job__title  #{ title } <span class="job__company">na <a href="http://bitvagas.com/" target="_blank">#{ company }</a></span>
+              h1.job__title  #{ title } <span class="job__company">na #{ website === "" ? company : "<a href='#{ company }' target='_blank'>#{ company }</a>" }</span>
           ul.job-info
             li
               |  <div class="label label--#{ (job_type).toLowerCase() }">#{ job_type }</div>
@@ -30,38 +31,35 @@
               | <div class="g-plusone" data-size="medium" data-href="http://bitvagas.com/#{ lang == "en" ? "" : lang + "/" }job/#{ slug }" data-href="http://bitvagas.com/"></div>
 
           h6 Descrição do trabalho:
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          h6 Habilidades:
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        footer.job-foot
-          a.btn.btn--medium.btn--primary(href='') Candidatar-se à vaga
+          p #{ job_description }
 
-          form.job-form
+          form(action="https://docs.google.com/forms/d/1AIBX-zjbQ_edm4ZdCqqrUixKj7Cpvb2tjwFSTWpzSpw/formResponse" method="POST" id="ss-form" target="_self").job-form
             .job-form__head
-              h5.job-form__title Apply to #{ title } at #{ company }
+              h5.job-form__title Aplicar para #{ title } na #{ company }
             .job-form__body
               ul.job-form__list
                 li
                   label.job-form__label Email:
                   .job-form__field
-                    input(placeholder='Email').job-form__input.input.input--full
+                    input#entry_955005878.job-form__input.input.input--full(type='email', placeholder='Email', name='entry.955005878', value='', dir='auto', aria-label='Email:  Precisa ser um endereço de e-mail válido', aria-required='true', required='', title='Precisa ser um endereço de e-mail válido')
+
                 li
-                  label.job-form__label Name:
+                  label.job-form__label Nome:
                   .job-form__field.job-form__field--name
                     .job-form__cell
-                      input(placeholder='First Name').job-form__input.input.input--full
+                      input#entry_1558225822.job-form__input.input.input--full(type='text', placeholder='Nome', name='entry.1558225822', value='', dir='auto', aria-label='Name:  Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter ')
                     .job-form__cell
-                      input(placeholder='Last Name').job-form__input.input.input--full
+                      input#entry_713180040.job-form__input.input.input--full(type='text', placeholder='Sobre nome', name='entry.713180040', value='', dir='auto', aria-label='Last Name:  Precisa conter ', aria-required='true', required='', pattern='.*.*', title='Precisa conter ')
                 li
-                  label.job-form__label Reference Links:
+                  label.job-form__label Links de Referência:
                   .job-form__field
-                    textarea(placeholder='Linkedin, myportfolio.com...' rows="1").job-form__input.textarea.textarea--full
+                    textarea#entry_944889134.job-form__input.textarea.textarea--full(name='entry.944889134', placeholder='Linkedin, myportfolio.com...', rows='1', cols='0', dir='auto', aria-label='Reference Links:  Precisa ter pelo menos 20 caracteres.', aria-required='true', required='')
                 li
-                  label.job-form__label Cover Letter:
+                  label.job-form__label Apresentação:
                   .job-form__field
-                    textarea(rows="5").job-form__input.textarea.textarea--full
+                    textarea#entry_1496250376.job-form__input.textarea.textarea--full(name='entry.1496250376', rows='5', cols='0', dir='auto', aria-label='Cover Letter:  Precisa ter pelo menos 100 caracteres.', aria-required='true', required='')
 
             .job-action
-              input#ss-submit.job-action__btn.btn.btn--primary.btn--medium(type="submit" name="submit" value="Submit")
+              input#ss-submit.job-action__btn.btn.btn--primary.btn--medium(type="submit" name="submit" value="Candidatar-se à vaga")
 
 != partial("_partials/foot")

@@ -6,5 +6,21 @@
         "site_subtitle":  "Platform of jobs for Bitcoin users",
         "description": "Explore the Bitcoin universe and help stimulate the decentralized economy. Hire using digital coins.",
         "tweet": "Platform of jobs for #Bitcoin users. @bitvagas #startup"
+    },
+    "cto-na-solcash-consultoria": {
+        "slug": "cto-na-solcash-consultoria",
+        "lang": "pt-br",
+        "site_url": "/pt-br/",
+        "site_subtitle": "CTO na Solcash Consultoria",
+        "description": "Explore o universo Bitcoin e ajude a estimular a economia descentralizada. Contrate utilizando moedas digitais.",
+        "tweet": "Vaga de CTO na Solcash Consultoria #bitvagas #bitcoin #cto",
+        "img": "",
+        "title": "CTO",
+        "company": "Solcash Consultoria",
+        "job_type": "Full-Time",
+        "job_description": "Empresa trader de bitcoin, precisa de alguém para implantar e coordenar os diversos aspectos de IT.",
+        "local": "São Paulo, SP",
+        "timestamp": "30/01/2015",
+        "website": ""
     }
 }
