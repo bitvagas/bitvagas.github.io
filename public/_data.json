@@ -110,7 +110,7 @@
             },
             "company_description": {
                 "label": "Company Description",
-                "title": "Must be at least 100 characters"
+                "title": "Must be at least 50 characters"
             },
             "title": {
                 "label": "Job Title",
