@@ -21,15 +21,16 @@ html(lang='#{ lang }')
     meta(name='twitter:image' content='http://bitvagas.com/img/bitvagas-meta.jpg')
     meta(name='twitter:site' content='@bitvagas')
 
-    link(href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Ubuntu:400,700', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet' href='#{ site_css }main.css')
 
-    link(rel='shortcut icon' href='http://bitvagas.com/favicon.ico' type='image/x-icon')
-    link(rel='icon' href='http://bitvagas.com/favicon.ico' type='image/x-icon')
+    link(rel='shortcut icon' href='https://bitvagas.com/favicon.ico' type='image/x-icon')
+    link(rel='icon' href='https://bitvagas.com/favicon.ico' type='image/x-icon')
 
     title #{ site_title } - #{ site_subtitle }
   body
+    h1= public[lang]._data.index.site_url
     header.head
       .wrapper
         .head-top
